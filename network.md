@@ -2,7 +2,7 @@
 
 ## Network Protocol
 
-RdNetworkManager has two ports:
+RdYarpNetworkManager has two ports:
 * A RPC Client: for login, logout and notifying the server that a robot has been hit.
 * A Callback Port: for receiving updated player information from the server.
 
