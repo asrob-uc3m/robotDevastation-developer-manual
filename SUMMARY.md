@@ -2,5 +2,5 @@
 
 * [Introduction](README.md)
 * [Network](network.md)
-* Tests
+* [Tests](tests.md)
 
