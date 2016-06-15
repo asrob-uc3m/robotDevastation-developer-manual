@@ -6,5 +6,6 @@
    * [Tests](tests.md)
 * Robots
    * Rd Series
+   * Premium Series
 * Research
 
