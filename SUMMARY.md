@@ -1,7 +1,7 @@
 # Summary
 
 * [Introduction](README.md)
-* [Network](network.md)
 * [Tests](tests.md)
+* [Network](network.md)
 * Software
 
