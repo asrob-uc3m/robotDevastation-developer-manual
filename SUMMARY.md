@@ -1,8 +1,8 @@
 # Summary
 
 * [Introduction](README.md)
-* [Network](network.md)
-* [Tests](tests.md)
 * Software
    * dummy
+* [Network](network.md)
+* [Tests](tests.md)
 
