@@ -5,5 +5,6 @@
    * [Network](network.md)
    * [Tests](tests.md)
 * Robots
+   * Rd Series
 * Research
 
