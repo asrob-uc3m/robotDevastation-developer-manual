@@ -4,5 +4,4 @@
 * Software
    * [Network](network.md)
    * [Tests](tests.md)
-   * dummy
 
