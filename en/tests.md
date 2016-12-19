@@ -41,5 +41,26 @@ Automated test.
 
 This test checks the transitions from InitState to other states. It also checks the different actions allowed in this State, such as logging in and exiting the game.
 
+## testMentalMap
+Automated test.
+
+Checks actions to be performed by the MentalMap, such as receiving and updating players from the server, shooting, reloading and respawning.
+
+## testMockupAudioManager
+Automated test.
+
+Checks that the mock AudioMananger is able to emulate loading and playing sounds.
+
+## testMockupInputManager
+Automated test.
+
+Checks that the mock InputMananger is able to emulate sending and receiving InputEvents from keyboard, window, etc.
+
+## testMockupNetworkManager
+Automated test.
+
+Checks that the mock NetworkMananger is able to emulate login, logout, sending player info and sending network events. It also tests receiving updates from the MentalMap.
+
+
 ## testRdYarpImageManager
 This test requires an actual webcam connected to the pc in order to work.
