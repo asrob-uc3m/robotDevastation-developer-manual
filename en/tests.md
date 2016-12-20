@@ -49,17 +49,17 @@ Checks actions to be performed by the MentalMap, such as receiving and updating 
 ## testMockupAudioManager
 Automated test.
 
-Checks that the mock AudioMananger is able to emulate loading and playing sounds.
+Checks that the mock AudioManager is able to emulate loading and playing sounds.
 
 ## testMockupInputManager
 Automated test.
 
-Checks that the mock InputMananger is able to emulate sending and receiving InputEvents from keyboard, window, etc.
+Checks that the mock InputManager is able to emulate sending and receiving InputEvents from keyboard, window, etc.
 
 ## testMockupNetworkManager
 Automated test.
 
-Checks that the mock NetworkMananger is able to emulate login, logout, sending player info and sending network events. It also tests receiving updates from the MentalMap.
+Checks that the mock NetworkManager is able to emulate login, logout, sending player info and sending network events. It also tests receiving updates from the MentalMap.
 
 ## testMockupScreen
 This test is not automated.
@@ -75,7 +75,48 @@ Usage:
  * Arrow keys control the crossing point coordinates.
  * Espace shoots, emitting a sound.
  * Escape exits the test.
+ 
+## testRdMockupImageManager
+Automated test.
 
+Checks that the mock ImageManager is able to emulate sending and receiving images.
+
+## testRdMockupRobotManager
+Automated test.
+
+Checks that the mock RobotManager is able to emulate connecting to the robot and moving it.
+
+## testRdProcessorImageEventListener
+Automated test.
+
+Checks that the ImageEventListener in charge of detecting robots on the image works correctly.
 
 ## testRdYarpImageManager
-This test requires an actual webcam connected to the pc in order to work.
+Automated test. This test requires an actual webcam connected to the PC in order to work.
+
+Checks that the YarpImageManager grabs images from the webcam.
+
+## testRdYarpNetworkManager
+Automated test.
+
+Checks that the YarpNetworkManager is able to perform login, logout, sending player info and sending network events. It also tests disconnection when no keep alive message is sent to server.
+
+## testRobotDevastation
+Automated test.
+
+Checks the whole game flow, similar to the different game state tests.
+
+## testSDLAudioManager
+Automated test.
+
+Checks that the SDLAudioManager is able to load and play sounds.
+
+## testSDLScreenManager
+This test is not automated.
+
+Checks that the SDLScreenMananger is able to load and display Screens.
+
+## testSDLTextDisplay
+This test is not automated.
+
+Simple test displaying some bars and text in a SDL window.
