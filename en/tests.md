@@ -61,6 +61,21 @@ Automated test.
 
 Checks that the mock NetworkMananger is able to emulate login, logout, sending player info and sending network events. It also tests receiving updates from the MentalMap.
 
+## testMockupScreen
+This test is not automated.
+
+The test displays the MockupScreen.
+
+## testRdInputManager
+This test is not automated.
+
+Checks that the SDLInputMananger is able to emulate sending and receiving InputEvents from keyboard.
+
+Usage:
+ * Arrow keys control the crossing point coordinates.
+ * Espace shoots, emitting a sound.
+ * Escape exits the test.
+
 
 ## testRdYarpImageManager
 This test requires an actual webcam connected to the pc in order to work.
