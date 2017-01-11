@@ -3,7 +3,7 @@
 
 The Robot Devastation FSM has three main elements: the State, the State Director, and the FiniteStateMachine.
 
-<img src="rD_StateMachine.svg" title="Class diagram" alt="Class diagram" width="800" />
+<img src="/assets/StateMachine.svg" title="Class diagram" alt="Class diagram" width="800" />
 
 ## State
 
@@ -32,7 +32,7 @@ To create a FiniteStateMachine, a StateMachineBuilder is typically used. More in
 
 # Execution flow of the FiniteStateMachine
 
-<img src="RD_StateMachineFlow.svg" title="RD_StateMachineFlow.svg" alt="RD_StateMachineFlow.svg" width="400" />
+<img src="/assets/StateMachineFlow.svg" title="Execution flow of the FiniteStateMachine" alt="Execution flow of the FiniteStateMachine" width="40000"/>
 
 # How to use it
 
