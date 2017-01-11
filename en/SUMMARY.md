@@ -8,5 +8,6 @@
 * Robots
     * [Rd Series](rd-series.md)
     * [Premium Series](premium_series.md)
-* Research
+* Resources
+* [Research](research.md)
 
