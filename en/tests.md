@@ -1,5 +1,4 @@
 # Tests
-This section is currently under development...
 
 ## testDeadScreen
 This test is not automated.
