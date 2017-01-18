@@ -5,9 +5,9 @@
     * [Finite State Machine](finite-state-machine.md)
     * [Network](network.md)
     * [Tests](tests.md)
-* Robots
+* [Robots](robots.md)
     * [Rd Series](rd-series.md)
     * [Premium Series](premium_series.md)
-* Resources
+* [Resources](resources.md)
 * [Research](research.md)
 
