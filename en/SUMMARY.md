@@ -10,13 +10,12 @@
     * Sound Management
     * Input Management
     * Network Management
+        * [Network](network.md)
     * Robot Management
     * User Interface Management
     * Camera Management
     * Data Management
-    * [Network](network.md)
     * [Tests](tests.md)
-
 * Server
     * Network Protocol
 * [Robots](robots.md)
