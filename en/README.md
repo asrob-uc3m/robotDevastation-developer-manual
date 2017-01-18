@@ -5,11 +5,10 @@
 This is the Robot Devastation Developer Manual. Here you will find all the info required to contribute with this project.
 
 # Summary
-
 * [Introduction](introduction.md)
-    * What is Robot Devastation?
-    * Overview
-* [Software](software.md)
+    * [What is Robot Devastation?](what-is-robot-devastation.md)
+    * [Overview](overview.md)
+* [The Game](software.md)
     * [Robot Devastation Overview](general-architecture.md)
     * Game FSM
         * [Finite State Machine](finite-state-machine.md)
@@ -22,9 +21,9 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
     * Camera Management
     * Data Management
     * [Tests](tests.md)
-* Server
+* [The Server](the-server.md)
     * Network Protocol
-* [Robots](robots.md)
+* [The Robots](robots.md)
     * [Rd Series](rd-series.md)
     * [Premium Series](premium_series.md)
 * How to contribute
@@ -33,6 +32,7 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
     * Projects
 * [Resources](resources.md)
 * [Research](research.md)
+
 
 
 
