@@ -2,7 +2,7 @@
 
 * [Summary](README.md)
 * [Introduction](introduction.md)
-    * What is Robot Devastation?
+    * [What is Robot Devastation?](what-is-robot-devastation.md)
     * Overview
 * [Software](software.md)
     * [Robot Devastation Overview](general-architecture.md)
