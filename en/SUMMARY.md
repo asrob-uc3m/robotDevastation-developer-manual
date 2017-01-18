@@ -4,7 +4,7 @@
 * [Introduction](introduction.md)
     * [What is Robot Devastation?](what-is-robot-devastation.md)
     * [Overview](overview.md)
-* [Software](software.md)
+* [The Game](software.md)
     * [Robot Devastation Overview](general-architecture.md)
     * Game FSM
         * [Finite State Machine](finite-state-machine.md)
@@ -17,9 +17,9 @@
     * Camera Management
     * Data Management
     * [Tests](tests.md)
-* Server
+* The Server
     * Network Protocol
-* [Robots](robots.md)
+* [The Robots](robots.md)
     * [Rd Series](rd-series.md)
     * [Premium Series](premium_series.md)
 * How to contribute
