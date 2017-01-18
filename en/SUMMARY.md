@@ -17,7 +17,7 @@
     * Camera Management
     * Data Management
     * [Tests](tests.md)
-* The Server
+* [The Server](the-server.md)
     * Network Protocol
 * [The Robots](robots.md)
     * [Rd Series](rd-series.md)
