@@ -1,8 +1,10 @@
 # Summary
 
+* [Summary](SUMMARY.md)
 * [Introduction](README.md)
     * What is Robot Devastation?
     * Overview
+
 * [Software](software.md)
     * [Robot Devastation Overview](general-architecture.md)
     * Game FSM
