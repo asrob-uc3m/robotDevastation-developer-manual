@@ -1,2 +1,8 @@
 # Overview
-Robot Devastation is made of three fundamental components: [the game](/software.md), the server and [the robots](/robots.md).
+Robot Devastation is made of three fundamental components: 
+* [The Game](/software.md): this components is in charge of running the game, processing the data received from the robots and commanding them with the user input. The code for the game software is in [the main Robot Devastation repository](https://github.com/asrob-uc3m/robotDevastation).
+* [The Server](/the-server.md) The code for the server software is in [the main Robot Devastation repository](https://github.com/asrob-uc3m/robotDevastation).
+* [The Robots](/robots.md): the robots are a key element of Robot Devastation, as they act as a physical avatar for the players. Robot Devastation currently supports several robots out of the box, and more can be added. The corresponding section of this manual gives some guidelines and interfaces that the robots must implement to be able to play Robot Devastation. The sources for the robots (hardware, firmware and software) are in  is in [the main Robot Devastation repository](https://github.com/asrob-uc3m/robotDevastation)
+
+
+These components are interconnected at different levels, 
