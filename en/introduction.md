@@ -4,8 +4,8 @@ This chapter will give you a general idea about Robot Devastation and how it is 
 ### Chapter Summary
 
 * [Introduction](introduction.md)
-    * What is Robot Devastation?
-    * Overview
+    * [What is Robot Devastation?](what-is-robot-devastation.md)
+    * [Overview](overview.md)
 
 
 
