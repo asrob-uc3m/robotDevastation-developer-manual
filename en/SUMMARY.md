@@ -1,7 +1,7 @@
 # Summary
 
-* [Summary](SUMMARY.md)
-* [Introduction](README.md)
+* [Summary](README.md)
+* Introduction
     * What is Robot Devastation?
     * Overview
 
