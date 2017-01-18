@@ -4,9 +4,9 @@
     * What is Robot Devastation?
     * Overview
 * [Software](software.md)
-    * [Finite State Machine](finite-state-machine.md)
     * [Robot Devastation Overview](general-architecture.md)
     * Game FSM
+        * [Finite State Machine](finite-state-machine.md)
     * Sound Management
     * Input Management
     * Network Management
@@ -16,6 +16,7 @@
     * Data Management
     * [Network](network.md)
     * [Tests](tests.md)
+
 * Server
     * Network Protocol
 * [Robots](robots.md)
@@ -27,5 +28,4 @@
     * Projects
 * [Resources](resources.md)
 * [Research](research.md)
- 
 
