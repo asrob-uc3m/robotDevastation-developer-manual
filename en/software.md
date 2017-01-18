@@ -1,13 +1,23 @@
 ## The Game
 ![The Game](/assets/the-game.png)
 
-This chapter will give you a general idea about Robot Devastation and how it is organized. Following chapters will be devoted to specific parts of Robot Devastation, such as the game software or the robots. 
+This chapter deals with the software for the Robot Devastation game. 
 
 ### Chapter Summary
 
-* [Introduction](introduction.md)
-    * What is Robot Devastation?
-    * Overview
+* [The Game](software.md)
+    * [Robot Devastation Overview](general-architecture.md)
+    * Game FSM
+        * [Finite State Machine](finite-state-machine.md)
+    * Sound Management
+    * Input Management
+    * Network Management
+        * [Network](network.md)
+    * Robot Management
+    * User Interface Management
+    * Camera Management
+    * Data Management
+    * [Tests](tests.md)
 
 
 
