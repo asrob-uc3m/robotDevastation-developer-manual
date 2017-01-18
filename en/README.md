@@ -1,9 +1,10 @@
 # Robot Devastation Developer Manual
 
+![logo](/assets/125px-Rd.png)
+
 This is the Robot Devastation Developer Manual. Here you will find all the info required to contribute with this project.
 
 ![logo](/assets/125px-Rd.png)
-
 # Summary
 
 * [Introduction](introduction.md)
