@@ -106,7 +106,7 @@ fsm->stop();
 
 To learn how to add an end state to finish the FSM flow, check out the next section.
 
-== Adding an end state ==
+### Adding an end state
 An end state is equivalent to a StateDirector with a NULL state. When using the StateMachineBuilder, a special method can be used to add such state:
 
 ```cpp
