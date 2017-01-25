@@ -1,6 +1,6 @@
 # Game FS
 
-The Game FSM, implemented in GameStateLib is the component in charge of controlling the game flow. Each state corresponds to a game state, and game conditions trigger the different transitions of the FSM. The implementation of the Game FSM uses the [Robot Devastion FSM class]()
+The Game FSM, implemented in GameStateLib is the component in charge of controlling the game flow. Each state corresponds to a game state, and game conditions trigger the different transitions of the FSM. The implementation of the Game FSM uses the [Robot Devastion FSM class](finite-state-machine.md).
 
 There are three main states in Robot Devastation, each of them with different pre-state, state and post-state conditions:
 
