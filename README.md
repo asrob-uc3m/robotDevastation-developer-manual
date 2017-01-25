@@ -1,6 +1,6 @@
 # Robot Devastation Developer Manual
 
-![logo](../assets/125px-Rd.png)
+![logo](assets/125px-Rd.png)
 
 This is the Robot Devastation Developer Manual, available in two languages: English and Spanish. (Note: the English version might be updated faster / more frequently)
 
