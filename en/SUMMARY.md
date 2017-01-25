@@ -28,4 +28,4 @@
   * Projects
 * [Resources](resources.md)
 * [Research](research.md)
-
+* [Glossary](GLOSSARY.md)
