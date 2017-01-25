@@ -6,6 +6,7 @@
   * [Overview](overview.md)
 * [The Game](software.md)
   * [Robot Devastation Overview](general-architecture.md)
+  * HUB class
   * [Game FSM](game-fsm.md)
     * [Finite State Machine](finite-state-machine.md)
   * Sound Management
@@ -29,3 +30,4 @@
 * [Resources](resources.md)
 * [Research](research.md)
 * [Glossary](GLOSSARY.md)
+
