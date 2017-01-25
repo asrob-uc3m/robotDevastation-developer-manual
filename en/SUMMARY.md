@@ -8,9 +8,9 @@
   * [Robot Devastation Overview](general-architecture.md)
     * [HUB class](general-architecture/hub-class.md)
   * [Game FSM](game-fsm.md)
-    * Init State
-    * Game State
-    * Dead State
+    * [Init State](init-state.md)
+    * [Game State](game-state.md)
+    * [Dead State](dead-state.md)
     * [Finite State Machine](finite-state-machine.md)
   * Sound Management
   * Input Management
