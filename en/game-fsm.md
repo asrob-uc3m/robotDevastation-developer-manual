@@ -2,6 +2,19 @@
 
 The Game FSM, implemented in GameStateLib is the component in charge of controlling the game flow. Each state corresponds to a game state, and game conditions trigger the different transitions of the FSM. The implementation of the Game FSM uses the [Robot Devastion FSM class](finite-state-machine.md).
 
+{% plantuml %}
+
+[*] --> State1
+State1 --> [*]
+State1 : this is a string
+State1 : this is another string
+
+State1 -> State2
+State2 --> [*]
+
+{% endplantuml %}
+
+
 There are three main states in Robot Devastation, each of them with different pre-state, state and post-state conditions:
 
  * [Init State](init-state.md): the game starts in this state, showing the initial splash screen. When user is ready, it logs in the player.
