@@ -10,7 +10,7 @@ ShowSplashScreen --> ShowSplashScreen
 ShowSplashScreen --> Login : press key
 Login --> GameState
 }
-{% end plantuml %}
+{% endplantuml %}
 
 
 ## Setup
