@@ -3,7 +3,7 @@
 Init State is in charge of displaying the splash screen and log in the user.
 
 {% plantuml %}
-state Configuring {
+state InitState {
   [*] --> NewValueSelection
   NewValueSelection --> NewValuePreview : EvNewValue
   NewValuePreview --> NewValueSelection : EvNewValueRejected
