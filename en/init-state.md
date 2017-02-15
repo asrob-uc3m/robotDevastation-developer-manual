@@ -14,7 +14,7 @@ Login --> GameState
 
 
 ## Setup
-
+In the setup, this state shows the splash screen and starts the music, awaiting user input.
 
 ## Loop
 
