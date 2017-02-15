@@ -8,7 +8,6 @@ state InitState {
 state "Show Splash Screen" as ShowSplashScreen
 ShowSplashScreen --> ShowSplashScreen
 ShowSplashScreen --> Login : press key
-
 Login --> GameState
 }
 ShowSplashScreen --> [*] : exit game
