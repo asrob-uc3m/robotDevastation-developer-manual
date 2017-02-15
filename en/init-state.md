@@ -8,9 +8,11 @@ state InitState {
 state "Show Splash Screen" as ShowSplashScreen
 ShowSplashScreen --> ShowSplashScreen
 ShowSplashScreen --> Login : press key
-ShowSplashScreen --> [*] : exit game
+
 Login --> GameState
 }
+ShowSplashScreen --> [*] : exit game
+
 {% endplantuml %}
 
 
