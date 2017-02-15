@@ -1,6 +1,6 @@
 # HUB Class
 ```uml
-{% plantuml %}{% plantuml %}
+{% plantuml %}
 
     Class Hub {
         +constructor:function(cfg)
