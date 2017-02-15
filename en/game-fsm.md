@@ -4,13 +4,13 @@ The Game FSM, implemented in GameStateLib is the component in charge of controll
 
 {% plantuml %}
 
-[*] --> State1
-State1 --> [*]
-State1 : this is a string
-State1 : this is another string
-
-State1 -> State2
-State2 --> [*]
+[*] --> InitState
+InitState -> GameState : press key
+GameState --> GameState
+GameState --> DeadState : health is 0
+GameState --> [*] : exit game
+DeadState --> GameState :  respawn
+DeadState --> [*] : exit game
 
 {% endplantuml %}
 
