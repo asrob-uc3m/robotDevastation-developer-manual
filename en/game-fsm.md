@@ -5,6 +5,7 @@ The Game FSM, implemented in GameStateLib is the component in charge of controll
 {% plantuml %}
 [*] --> InitState
 InitState -> GameState : press key
+InitState --> [*] : exit game
 GameState --> GameState
 GameState --> DeadState : health is 0
 GameState --> [*] : exit game
