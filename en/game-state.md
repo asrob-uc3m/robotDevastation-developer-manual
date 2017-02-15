@@ -1,4 +1,5 @@
 # Game State
+Game State is where most of the game occurs. In this state you can control your robot to fight other robots.  When your health arrives to 0, you die and go to the DeadState.
 
 {% plantuml %}
 InitState -right-> GameState
@@ -23,6 +24,7 @@ Cleanup --> [*] : exit requested
 {% endplantuml %}
 
 ## Setup
+In the Setup the game connects with the [NetworkManager](network-management.md) and the [MentalMap](data-management.md)
 
 ## Loop
 

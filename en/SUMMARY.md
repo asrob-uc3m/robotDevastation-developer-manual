@@ -14,12 +14,12 @@
     * [Finite State Machine](finite-state-machine.md)
   * Sound Management
   * Input Management
-  * Network Management
+  * [Network Management](network-management.md)
     * [Network](network.md)
   * Robot Management
   * User Interface Management
   * Camera Management
-  * Data Management
+  * [Data Management](data-management.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
   * Network Protocol
