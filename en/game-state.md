@@ -28,7 +28,12 @@ In the Setup the game connects with the [NetworkManager](network-management.md) 
 It also starts the video and audio and enables both the user input and the robot controller.
 
 ## Loop
+In the Loop the game gets input events, process them accordingly and updates the screen.
 
 ## Cleanup
+If it arrived to this state after requesting exit, it disables all the involved managers.
 
 ## Transitions
+If health arrives to 0, you die and go to the DeadState.
+
+If exit is requested, it finishes the game.
