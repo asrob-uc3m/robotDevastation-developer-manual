@@ -5,7 +5,7 @@ The Game FSM, implemented in GameStateLib is the component in charge of controll
 There are three main states in Robot Devastation, each of them with different pre-state, state and post-state conditions:
 
  * [Init State](init-state.md): the game starts in this state, showing the initial splash screen. When user is ready, it logs in the player.
- * [Game State](game-state.md): main state of the gaim. Combats and robot movement happen in this state.
+ * [Game State](game-state.md): main state of the game. Combats and robot movement happen in this state.
  * [Dead State](dead-state.md): you arrive to this state when you die, and remain there for a certain amount of time until you can be respawned into the game.
 
 Each game state is a [Hub class](general-architecture/hub-class.md), and has access to all the different managers present in Robot Devastation.
