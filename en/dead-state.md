@@ -3,10 +3,10 @@ When a player dies, he arrives to the DeadState. In this state a countdown is di
 
 
 ## Setup
-In Setup, the video, user input and the robot controller are disabled.
+The video, user input and the robot controller are disabled.
 
 ## Loop
-In the Loop, the count is decremented from 10 to 0. When the counter arrives to 0, the user input is enabled and, if selected, the player is respawned to the GameState.
+The count is decremented from 10 to 0. When the counter arrives to 0, the user input is enabled and, if selected, the player is respawned to the GameState.
 
 ## Cleanup
 If it arrived to this state after requesting exit, it disables all the involved managers.
