@@ -32,7 +32,18 @@ To create a FiniteStateMachine, a StateMachineBuilder is typically used. More in
 
 # Execution flow of the FiniteStateMachine
 
-<img src="/assets/StateMachineFlow.svg" title="Execution flow of the FiniteStateMachine" alt="Execution flow of the FiniteStateMachine" width="40000"/>
+{% plantuml %}
+state "setup()" as setup
+state "loop()" as loop
+state "cleanup()" as cleanup
+
+[*] --> setup
+setup --> loop
+loop --> loop : evaluateConditions() not in transitions
+loop --> cleanup : evaluateConditions() in transitions
+cleanup --> [*] : (To next state / end)
+{% endplantuml %}
+
 
 # How to use it
 
