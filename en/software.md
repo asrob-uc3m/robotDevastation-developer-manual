@@ -1,5 +1,5 @@
 ## The Game
-![The Game](/assets/the-game.png)
+![The Game](../assets/the-game.png)
 
 This chapter deals with the software for the Robot Devastation game. 
 

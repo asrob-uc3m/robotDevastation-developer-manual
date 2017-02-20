@@ -22,7 +22,7 @@
   * [Data Management](data-management.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
-  * Network Protocol
+  * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
   * [Premium Series](premium_series.md)
