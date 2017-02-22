@@ -31,5 +31,19 @@ The main methods of an `AudioManager` are:
 * `play()`: plays a loaded sound. The sound is selected by its id, and the number of loops it will be played can be specified.
 * `stopMusic()`: stops all sounds being played.
 
-## SDLAudioManager classr
-`SDLAudioManager` is an implementation of the `AudioManager` inter
+## SDLAudioManager class
+`SDLAudioManager` is an implementation of the `AudioManager` interface using SDL as audio backend. 
+
+## MockupAudioManager class
+`MockupAudioManager` is an implementation of the `AudioManager` for unit testing purposes. It adds the method `isSoundPlaying` to check whether or not a sound is currently being played. Note that this class mocks a real `AudioManager`, so it does not produce any sound.
+
+{% plantuml %}
+interface AudioManager 
+
+Class MockupAudioManager {
+ bool isPlaying(string id)
+}
+
+AudioManager <|-- MockupAudioManager
+{% endplantuml %}
+
