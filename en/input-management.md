@@ -6,6 +6,7 @@ For a detailed documentation of the methods and attributes of the classes,
 check the doxygen documentation.  
 ```
 ## System Overview
+The input system is based on the [listener design pattern](https://en.wikipedia.org/wiki/Observer_pattern), also called *observer pattern*. The InputManager generates input events whenever the user interacts with Robot Devastation through the keyboard or UI. 
 
 {% plantuml %}
 interface InputManager
