@@ -28,7 +28,18 @@ InputEventListener -- RdWindowEvent : receives
 
 ## InputEventListener
 
-## InputEventListener
+## MockupInputEventListener
+
+Implements the following functions to extract information about received input events:
+
+* `getNumKeyDownPresses()`
+*  `getNumKeyUpPresses()`
+* `getNumWindowEvents()`
+* `clear()`
+* `getStoredKeyUpPresses()`
+* `getStoredKeyDownPresses()`
+* `getStoredWindowEvents()`
+
 
 
 
