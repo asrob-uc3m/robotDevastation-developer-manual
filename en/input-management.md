@@ -27,6 +27,9 @@ class RdKey
 class RdWindowEvent
 
 class RdSDLEventFactory
+
+RdSDLEventFactory -- RdKey : creates
+RdSDLEventFactory -- RdWindowEvent : creates
 {% endplantuml %}
 
 ## InputManager class
