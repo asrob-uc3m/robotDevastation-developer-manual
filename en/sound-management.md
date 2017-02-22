@@ -35,7 +35,7 @@ The main methods of an `AudioManager` are:
 `SDLAudioManager` is an implementation of the `AudioManager` interface using SDL as audio backend. 
 
 ## MockupAudioManager class
-`MockupAudioManager` is an implementation of the `AudioManager` for unit testing purposes. It adds the method `isSoundPlaying` to check whether or not a sound is currently being played. Note that this class mocks a real `AudioManager`, so it does not produce any sound.
+`MockupAudioManager` is an implementation of the `AudioManager` for unit testing purposes. It adds the method `isSoundPlaying()` to check whether or not a sound is currently being played. Note that this class mocks a real `AudioManager`, so it does not produce any actual sound.
 
 {% plantuml %}
 interface AudioManager 
