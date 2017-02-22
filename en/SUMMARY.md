@@ -12,7 +12,7 @@
     * [Game State](game-state.md)
     * [Dead State](dead-state.md)
     * [Finite State Machine](finite-state-machine.md)
-  * Sound Management
+  * [Sound Management](sound-management.md)
   * Input Management
   * [Network Management](network-management.md)
     * [Network](network.md)
