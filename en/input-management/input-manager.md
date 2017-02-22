@@ -24,7 +24,13 @@ The main methods of an `InputManager` are:
 
 ## MockupInputManager class
 `MockupInputManager` is an implementation of the `InputManager` for unit testing purposes.
-It allows to generate input events from the testing code, without the need for a user. 
+It allows to generate input events from the testing code, without the need for a user. These events are generated from the following functions:
+ 
+* `sendKeyPress()`: Generates a Key Down followed by a Key Up event of a given key.
+* `sendKeyUp()`: Generates a Key Up event of a given key.
+* `sendKeyDown()`: Generates a Key Down event of a given key.
+* `sendWindowEvent()`: Generates a window event, such as closing the window.
+
 
 {% plantuml %}
 interface InputManager 
