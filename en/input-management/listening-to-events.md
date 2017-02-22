@@ -8,13 +8,27 @@ bool onKeyUp(const RdKey & k)
 bool onWindowEvent(const RdWindowEvent & event)
 }
 
-class MockupInputEventListener
+class MockupInputEventListener {
+int getNumKeyDownPresses()
+int getNumKeyUpPresses()
+int getNumWindowEvents()
+
+bool clear()
+
+vector<RdKey> getStoredKeyUpPresses()
+vector<RdKey> getStoredKeyDownPresses()
+vector<RdWindowEvent> getStoredWindowEvents()
+}
 class RdKey
 class RdWindowEvent
 InputEventListener <|-- MockupInputEventListener
 InputEventListener -- RdKey : receives
 InputEventListener -- RdWindowEvent : receives
 {% endplantuml %}
+
+## InputEventListener
+
+## InputEventListener
 
 
 
