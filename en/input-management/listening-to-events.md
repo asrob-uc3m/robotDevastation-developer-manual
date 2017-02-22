@@ -38,14 +38,13 @@ This interface has the following functions, that are called when the correspondi
 
 Implements the following functions to extract information about received input events:
 
-* `getNumKeyDownPresses()`
-* `getNumKeyUpPresses()`
-* `getNumWindowEvents()`
-* `clear()`
-* `getStoredKeyUpPresses()`
-* `getStoredKeyDownPresses()`
-* `getStoredWindowEvents()`
-
+* `getNumKeyDownPresses()`: returns the number of key down events received.
+* `getNumKeyUpPresses()`: returns the number of key up events received.
+* `getNumWindowEvents()`: returns the number of window events received.
+* `clear()`: clears all events received.
+* `getStoredKeyUpPresses()`: returns a vector of key down events received.
+* `getStoredKeyDownPresses()`: returns a vector of key up events received.
+* `getStoredWindowEvents()`: returns a vector of window events received.
 
 
 
