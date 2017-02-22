@@ -12,8 +12,11 @@ This chapter deals with the software for the Robot Devastation game.
     * [Game State](game-state.md)
     * [Dead State](dead-state.md)
     * [Finite State Machine](finite-state-machine.md)
-  * Sound Management
-  * Input Management
+  * [Sound Management](sound-management.md)
+  * [Input Management](input-management.md)
+    * [Input Manager](input-management/input-manager.md)
+    * [Listening to Events](input-management/listening-to-events.md)
+    * Creating Events
   * [Network Management](network-management.md)
     * [Network](network.md)
   * Robot Management
@@ -21,6 +24,7 @@ This chapter deals with the software for the Robot Devastation game.
   * Camera Management
   * [Data Management](data-management.md)
   * [Tests](tests.md)
+
 
 
 
