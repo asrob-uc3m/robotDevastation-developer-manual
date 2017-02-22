@@ -13,7 +13,7 @@
     * [Dead State](dead-state.md)
     * [Finite State Machine](finite-state-machine.md)
   * [Sound Management](sound-management.md)
-  * Input Management
+  * [Input Management](input-management.md)
   * [Network Management](network-management.md)
     * [Network](network.md)
   * Robot Management
