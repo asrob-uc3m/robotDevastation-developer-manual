@@ -1,4 +1,4 @@
-  # Summary
+# Summary
 
 * [Summary](README.md)
 * [Introduction](introduction.md)
@@ -14,7 +14,7 @@
     * [Finite State Machine](finite-state-machine.md)
   * [Sound Management](sound-management.md)
   * [Input Management](input-management.md)
-    * Input Manager
+    * [Input Manager](input-management/input-manager.md)
     * Listening to Events
     * Creating Events
   * [Network Management](network-management.md)
