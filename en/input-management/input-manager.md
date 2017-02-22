@@ -44,7 +44,7 @@ bool sendWindowEvent(const RdWindowEvent & event);
 InputManager <|-- MockupInputManager
 {% endplantuml %}
 
-## Dependency with other managers
+## Dependency with other elements
 As explained in the [Robot Devastation Overview](../general-architecture.md) section, the following classes implement the InputEventListener interface to receive input events:
 * [InitState](../init-state.md)
 * [GameState](../game-state.md)
