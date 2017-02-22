@@ -15,6 +15,18 @@ Class MockupInputManager
 InputManager <|-- MockupInputManager
 
 InputManager <|-- SDLInputManager
+
+interface InputEventListener
+
+class MockupInputEventListener
+
+InputEventListener <|-- MockupInputEventListener
+
+class RdKey
+
+class RdWindowEvent
+
+class RdSDLEventFactory
 {% endplantuml %}
 
 ## InputManager class
