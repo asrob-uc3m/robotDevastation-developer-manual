@@ -1,5 +1,5 @@
 ## InputManager class
-The `InputManager` class defines the interface required for managing the sound system in Robot Devastation. Other classes can then define the implementation of the AudioManager according to, for instance, the library selected for playing audio.
+The `InputManager` class defines the interface required for managing the input system in Robot Devastation. Other classes can then define the implementation of the InputManager according to, for instance, the library selected for reading user input.
 
 {% plantuml %}
 interface InputManager {
@@ -15,14 +15,14 @@ bool removeInputEventListeners()
 
 The main methods of an `InputManager` are: 
 * `start()`, `stop()` and `isStopped()`: control the manager startup and halting
-
+* `addInputEventListener()`: registers a `RdInputEventListener`
 
 ## SDLInputManager class
 `SDLAudioManager` is an implementation of the `InputManager` interface using SDL as input backend. 
 
 ## MockupInputManager class
 `MockupInputManager` is an implementation of the `InputManager` for unit testing purposes.
-It adds the method `isSoundPlaying()` to check whether or not a sound is currently being played. Note that this class mocks a real `InputManager`, so it does not produce any actual sound.
+It allows to generate input events from the testing code, without the need for a user. 
 
 
 
