@@ -17,8 +17,11 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
     * [Game State](game-state.md)
     * [Dead State](dead-state.md)
     * [Finite State Machine](finite-state-machine.md)
-  * Sound Management
-  * Input Management
+  * [Sound Management](sound-management.md)
+  * [Input Management](input-management.md)
+    * [Input Manager](input-management/input-manager.md)
+    * [Listening to Events](input-management/listening-to-events.md)
+    * Creating Events
   * [Network Management](network-management.md)
     * [Network](network.md)
   * Robot Management
@@ -27,7 +30,7 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
   * [Data Management](data-management.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
-  * Network Protocol
+  * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
   * [Premium Series](premium_series.md)
@@ -38,6 +41,8 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
 * [Resources](resources.md)
 * [Research](research.md)
 * [Glossary](GLOSSARY.md)
+
+
 
 
 
