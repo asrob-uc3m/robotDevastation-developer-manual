@@ -6,6 +6,21 @@ For a detailed documentation of the methods and attributes of the classes,
 check the doxygen documentation.  
 ```
 
+## System Overview
+{% plantuml %}
+interface AudioManager 
+
+Class MockupAudioManager {
+ bool isPlaying(string id)
+}
+
+AudioManager <|-- MockupAudioManager
+
+AudioManager <|-- SDLAudioManager
+{% endplantuml %}
+
+
+
 ## AudioManager class
 
 The `AudioManager` class defines the interface required for managing the sound system in Robot Devastation. Other classes can then define the implementation of the AudioManager according to, for instance, the library selected for playing audio.
