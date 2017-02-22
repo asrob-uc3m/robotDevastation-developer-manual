@@ -11,7 +11,7 @@ check the doxygen documentation.
 The `AudioManager` class defines the interface required for managing the sound system in Robot Devastation. Other classes can then define the implementation of the AudioManager according to, for instance, the library selected for playing audio.
 
 {% plantuml %}
-Class AudioManager {
+interface AudioManager {
     bool load(string music_filepath, string id, int type)
     bool play(string id, int loop=1)
     bool stopMusic()
@@ -31,3 +31,5 @@ The main methods of an `AudioManager` are:
 * `play()`: plays a loaded sound. The sound is selected by its id, and the number of loops it will be played can be specified.
 * `stopMusic()`: stops all sounds being played.
 
+## SDLAudioManager classr
+`SDLAudioManager` is an implementation of the `AudioManager` inter
