@@ -30,3 +30,4 @@ The main methods of an `AudioManager` are:
 * `load()`: loads a music file from a path and assigns it an id. The type, which can be either `MUSIC` or `FX` represents whether the sound is a long sound supposed to be game music or a short sound supposed to be a sound effect.
 * `play()`: plays a loaded sound. The sound is selected by its id, and the number of loops it will be played can be specified.
 * `stopMusic()`: stops all sounds being played.
+
