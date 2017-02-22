@@ -27,13 +27,19 @@ InputEventListener -- RdWindowEvent : receives
 {% endplantuml %}
 
 ## InputEventListener
+This interface has the following functions, that are called when the corresponding event is triggered in the `InputManager`:
+
+* `onKeyDown()`: called when a key is pressed, the event passed stores the key that triggered the event.
+* `onKeyUp()`: called when a key is released, the event passed stores the key that triggered the event.
+* `onWindowEvent()`: called when a window event happens, the event passed stores the event type and information.
+
 
 ## MockupInputEventListener
 
 Implements the following functions to extract information about received input events:
 
 * `getNumKeyDownPresses()`
-*  `getNumKeyUpPresses()`
+* `getNumKeyUpPresses()`
 * `getNumWindowEvents()`
 * `clear()`
 * `getStoredKeyUpPresses()`
