@@ -6,7 +6,7 @@ RdKey k('A'); //-- Create a printable Key
 RdKey k2(RdKey::KEY_ARROW_UP); //-- Create a control key
 ``` 
 
-Some implementations such as the SDL input backend, receive input events from SDL as SDL types (i.e. SDL_Keycode, SDL_WindowEvent). To create Robot Devastation input events from them, the `RdSDLEventFactory` can be used. It follows the [factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern), owning a table to convert from SDL types to the corresponding `RdKey`. 
+Some implementations, such as the SDL input backend, receive input events from SDL as SDL types (i.e. SDL_Keycode, SDL_WindowEvent). To create Robot Devastation input events from them, the `RdSDLEventFactory` can be used. It follows the [factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern), owning a table to convert from SDL types to the corresponding `RdKey`. 
 
 {% plantuml %}
 
