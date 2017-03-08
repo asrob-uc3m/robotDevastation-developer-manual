@@ -6,7 +6,7 @@ RdKey k('A');
 RdKey k2(RdKey::KEY_ARROW_UP);
 ``` 
 
-Some implementations such as the SDL input backend, receive input events from SDL as SDL types (i.e. SDL_Keycode, SDL_WindowEvent). To create Robot Devastation input events from them, the + RdSdl
+Some implementations such as the SDL input backend, receive input events from SDL as SDL types (i.e. SDL_Keycode, SDL_WindowEvent). To create Robot Devastation input events from them, the `RdSDLEventFactory` can be used. It follows the [factory pattern](https://en.wikipedia.org/wiki/Factory_method_pattern).
 
 {% plantuml %}
 
