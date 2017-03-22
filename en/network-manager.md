@@ -13,8 +13,8 @@ bool removeNetworkEventListeners()
 bool configure(string parameter, RdPlayer value)
 -- Communications with server --
 bool login()
-logout()
-keepAlive()
+bool logout()
+bool keepAlive()
 bool sendPlayerHit(RdPlayer player, int damage)
 -- ?? --
 onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
