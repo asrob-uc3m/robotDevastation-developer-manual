@@ -54,7 +54,7 @@ It allows to emulate connections with [The Server](the-server.md) without the ac
 * `isStopped()`: checks if the manager is stopped.
 * `setPlayerData()`: sets the player data in the emulated server.
 * `getPlayerData()`: retrieves the player data from the emulated server.
-* `sendPlayerData()`: makes the `MockupNetworkManager` receive player data from the emulated server. 
+* `sendPlayerData()`: makes the `MockupNetworkManager` receive player data from the emulated server, generating a `NetworkEvent` that is notified to all registered listeners.
 * `setLoggedIn()`: set the logged in status of the `MockupNetworkManager`.
 
 
