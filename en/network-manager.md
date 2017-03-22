@@ -1,5 +1,6 @@
 ## NetworkManager class
 The `NetworkManager` class defines the interface required for managing the network system in Robot Devastation. Other classes can then define the implementation of the NetworkManager according to, for instance, the library selected for connecting to the network / server.
+Note that configuration of the player data has to be performed **before** the `NetworkManager` is started.
 
 {% plantuml %}
 interface NetworkManager {
