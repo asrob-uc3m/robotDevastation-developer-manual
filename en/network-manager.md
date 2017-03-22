@@ -16,7 +16,14 @@ bool login()
 bool logout()
 bool keepAlive()
 bool sendPlayerHit(RdPlayer player, int damage)
+-- RdMentalMapEventListener interface --
+onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
+onRespawn(RdPlayer player)
 }
+
+RdMentalMapEventListener <|-- NetworkManager
+
+
 {% endplantuml %}
 
 The main methods of an `NetworkManager` are: 
@@ -29,9 +36,20 @@ The main methods of an `NetworkManager` are:
 * `keepAlive()`: tells the server that you are still alive. If this signal is not sent every 60 seconds the server automatically logs out the player.
 * `sendPlayerhit()`: notify the server that an enemy has been hit.
 
+## YarpNetworkManager class
+`YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP]() as communications middleware. 
+
+## MockupInputManager class
+`MockupInputManager` is an implementation of the `InputManager` for unit testing purposes.
+It allows to generate input events from the testing code, without the need for a user. These events are generated from the following functions:
+ 
+* `sendKeyPress()`: Generates a Key Down followed by a Key Up event of a given key.
+* `sendKeyUp()`: Generates a Key Up event of a given key.
+* `sendKeyDown()`: Generates a Key Down event of a given key.
+* `sendWindowEvent()`: Generates a window event, such as closing the window.
 
 
-## YarpNetworkManager
--- ?? --
-onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
-onRespawn(RdPlayer player)
+
+
+
+
