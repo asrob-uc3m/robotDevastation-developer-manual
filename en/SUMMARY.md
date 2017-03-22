@@ -20,7 +20,7 @@
   * [Network Management](network-management.md)
     * [Network Manager](network-manager.md)
     * [Listening to Events](listening-to-events.md)
-  * Robot Management
+  * [Robot Management](robot-management.md)
   * User Interface Management
   * Camera Management
   * [Data Management](data-management.md)
