@@ -15,25 +15,19 @@ vector<RdPlayer> getStoredPlayers()
 NetworkEventListener <|-- MockupNetworkEventListener
 {% endplantuml %}
 
-## InputEventListener
-This interface has the following functions, that are called when the corresponding event is triggered in the `InputManager`:
+## NetworkEventListener
+This interface has the following function, that is called when the corresponding event is triggered in the `NetworkManager`:
 
-* `onKeyDown()`: called when a key is pressed, the event passed stores the key that triggered the event.
-* `onKeyUp()`: called when a key is released, the event passed stores the key that triggered the event.
-* `onWindowEvent()`: called when a window event happens, the event passed stores the event type and information.
+* `onDataArrived()`: called when the server sends player data.
 
 
-## MockupInputEventListener
+## MockupNetworkEventListener
+Implements the following functions to extract information about received network events:
 
-Implements the following functions to extract information about received input events:
+* `getDataArrived()`: returns the amount of network events received.
+* `resetDataArrived()`: resets the counter of network events received.
+* `getStoredPlayers()`: returns the player data received in the most recent network event.
 
-* `getNumKeyDownPresses()`: returns the number of key down events received.
-* `getNumKeyUpPresses()`: returns the number of key up events received.
-* `getNumWindowEvents()`: returns the number of window events received.
-* `clear()`: clears all events received.
-* `getStoredKeyUpPresses()`: returns a vector of key down events received.
-* `getStoredKeyDownPresses()`: returns a vector of key up events received.
-* `getStoredWindowEvents()`: returns a vector of window events received.
 
 
 
