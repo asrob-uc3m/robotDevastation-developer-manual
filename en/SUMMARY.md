@@ -18,6 +18,7 @@
     * [Listening to Events](input-management/listening-to-events.md)
     * [Creating Events](input-management/creating-events.md)
   * [Network Management](network-management.md)
+    * Network Manager
     * [Network](network.md)
   * Robot Management
   * User Interface Management
