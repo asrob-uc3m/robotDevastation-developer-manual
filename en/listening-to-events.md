@@ -1,29 +1,18 @@
 # Listening to Events
-When a class needs to receive input events, such as keypresses, it must implement the `InputEventListener` interface. Once registered in the `InputManager`, it will receive input events each time the user generates them.
+When a class needs to receive network events, such as be notified of data arrival, it must implement the `NetworkEventListener` interface. Once registered in the `NetworkManager`, it will receive network events each time the server generates them.
 
 {% plantuml %}
-interface InputEventListener {
-bool onKeyDown(const RdKey & k)
-bool onKeyUp(const RdKey & k)
-bool onWindowEvent(const RdWindowEvent & event)
+interface NetworkEventListener {
+bool onDataArrived(vector<RdPlayer> players)
 }
 
-class MockupInputEventListener {
-int getNumKeyDownPresses()
-int getNumKeyUpPresses()
-int getNumWindowEvents()
-
-bool clear()
-
-vector<RdKey> getStoredKeyUpPresses()
-vector<RdKey> getStoredKeyDownPresses()
-vector<RdWindowEvent> getStoredWindowEvents()
+class MockupNetworkEventListener {
+int getDataArrived()
+void resetDataArrived()
+vector<RdPlayer> getStoredPlayers()
 }
-class RdKey
-class RdWindowEvent
-InputEventListener <|-- MockupInputEventListener
-InputEventListener -- RdKey : receives
-InputEventListener -- RdWindowEvent : receives
+
+NetworkEventListener <|-- MockupNetworkEventListener
 {% endplantuml %}
 
 ## InputEventListener
