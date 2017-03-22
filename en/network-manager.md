@@ -39,9 +39,9 @@ The main methods of an `NetworkManager` are:
 ## YarpNetworkManager class
 `YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP](http://www.yarp.it/) as communications middleware. It uses a `TypedReaderCallback` to receive data from the server and
 
-## MockupInputManager class
-`MockupInputManager` is an implementation of the `InputManager` for unit testing purposes.
-It allows to generate input events from the testing code, without the need for a user. These events are generated from the following functions:
+## MockupNetworkManager class
+`MockupNetworkManager` is an implementation of the `NetworkManager` for unit testing purposes.
+It allows to emulate connections with [The Server](the-server.md) without the actual server
  
 * `sendKeyPress()`: Generates a Key Down followed by a Key Up event of a given key.
 * `sendKeyUp()`: Generates a Key Up event of a given key.
