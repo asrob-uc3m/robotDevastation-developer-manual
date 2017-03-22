@@ -12,19 +12,11 @@ The network system is based on the [*listener* design pattern](https://en.wikipe
 {% plantuml %}
 interface RdRobotManager
 
-Class MockupRobotManager
-Class YarpRobotManager
+Class RdMockupRobotManager
+Class RdYarpRobotManager
 
-
-NetworkManager <|-- MockupNetworkManager
-
-NetworkManager <|-- YarpNetworkManager
-
-interface NetworkEventListener
-
-class MockupNetworkEventListener
-
-NetworkEventListener <|-- MockupNetworkEventListener
+RdRobotManager <|-- RdMockupRobotManager
+RdRobotManager <|-- RdYarpRobotManager
 {% endplantuml %}
 
 
