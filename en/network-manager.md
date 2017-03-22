@@ -12,10 +12,10 @@ bool addNetworkEventListener(RdNetworkEventListener * listener)
 bool removeNetworkEventListeners()
 bool configure(string parameter, RdPlayer value)
 -- Communications with server --
-login()
+bool login()
 logout()
 keepAlive()
-sendPlayerHit()
+bool sendPlayerHit(RdPlayer player, int damage)
 -- ?? --
 onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
 onRespawn(RdPlayer player)
@@ -29,7 +29,7 @@ The main methods of an `NetworkManager` are:
 * `configure()`: configure some network parameters (e.g. the player to be logged in).
 * `login()`: login in the game server.
 * `logout()`: logout from the game server.
-* `keepAlive()`: tells the server that you are still alive. If this signal is not sent 
+* `keepAlive()`: tells the server that you are still alive. If this signal is not sent every 60 seconds the server automatically logs out the player.
 * `sendPlayerhit()`: notify the server that an enemy has been hit.
 
 
