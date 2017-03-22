@@ -16,9 +16,6 @@ bool login()
 bool logout()
 bool keepAlive()
 bool sendPlayerHit(RdPlayer player, int damage)
--- ?? --
-onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
-onRespawn(RdPlayer player)
 }
 {% endplantuml %}
 
