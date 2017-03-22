@@ -21,7 +21,11 @@ onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
 onRespawn(RdPlayer player)
 }
 
-interface RdMentalMapEventListener <|-- NetworkManager
+interface RdMentalMapEventListener
+RdMentalMapEventListener <|-- NetworkManager
+
+
+
 
 
 {% endplantuml %}
