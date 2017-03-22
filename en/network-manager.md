@@ -37,8 +37,8 @@ The main methods of an `NetworkManager` are:
 * `sendPlayerhit()`: notify the server that an enemy has been hit.
 
 A `NetworkManager` should also implement the required methods of the `RdMentalMapEventListener` interface:
-* `onTargetHit()`
-* `onRespawn()`
+* `onTargetHit()`: notifies the game server that a player has been hit with `sendPlayerhit()`.
+* `onRespawn()`: restores the player health after respawn.
 
 
 ## YarpNetworkManager class
