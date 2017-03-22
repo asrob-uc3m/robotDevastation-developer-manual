@@ -36,6 +36,11 @@ The main methods of an `NetworkManager` are:
 * `keepAlive()`: tells the server that you are still alive. If this signal is not sent every 60 seconds the server automatically logs out the player.
 * `sendPlayerhit()`: notify the server that an enemy has been hit.
 
+A `NetworkManager` should also implement the required methods of the `RdMentalMapEventListener` interface:
+* `onTargetHit()`
+* `onRespawn()`
+
+
 ## YarpNetworkManager class
 `YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP](http://www.yarp.it/) as communications middleware. It uses a `TypedReaderCallback` to receive data from the server and
 
