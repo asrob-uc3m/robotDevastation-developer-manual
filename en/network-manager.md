@@ -64,7 +64,6 @@ class MockupNetworkManager {
 -- Mockup object API --
 bool isLoggedIn()
 bool isStopped()
-
 bool setPlayerData(vector<RdPlayer> game_players)
 vector<RdPlayer> getPlayerData()
 bool sendPlayerData()
