@@ -43,7 +43,7 @@ A `NetworkManager` should also implement the required methods of the `RdMentalMa
 
 
 ## YarpNetworkManager class
-`YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP](http://www.yarp.it/) as communications middleware. It uses a `yarp::os::TypedReaderCallback<yarp::os::Bottle>` to receive data from the server and then notifies listeners that new data has arrived.
+`YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP](http://www.yarp.it/) as communications middleware. It uses a `yarp::os::TypedReaderCallback<yarp::os::Bottle>` to receive data from the server and then notifies listeners that new data has arrived. It also owns a `yarp::os::RpcClient` to send data for login, logout and to notify the server that a robot has been hit.
 
 A `yarp::os::RateThread` is used to send periodically a `keepAlive()` signal to the game server to avoid being logged out.
 
