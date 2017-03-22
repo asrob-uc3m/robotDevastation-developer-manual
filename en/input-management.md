@@ -9,29 +9,19 @@ check the doxygen documentation.
 The input system is based on the [*listener* design pattern](https://en.wikipedia.org/wiki/Observer_pattern), also called *observer pattern*. The InputManager generates input events whenever the user interacts with Robot Devastation through the keyboard or UI. These events store information about the conditions that generated that event. For instance, key presses will generate key events, that will store the value of the key that generated them. Other objects, called *listeners* or *observers*, are subscribed to these events, and each time a event is generated, they receive a copy of the event.
 
 {% plantuml %}
-interface InputManager
+interface NetworkManager
 
-Class MockupInputManager
+Class MockupNetworkManager
 
-InputManager <|-- MockupInputManager
+NetworkManager <|-- MockupNetworkManager
 
-InputManager <|-- SDLInputManager
+NetworkManager <|-- YarpNetworkManager
 
-interface InputEventListener
+interface NetworkEventListener
 
-class MockupInputEventListener
+class MockupNetworkEventListener
 
-InputEventListener <|-- MockupInputEventListener
-
-class RdKey
-
-class RdWindowEvent
-
-class RdSDLEventFactory
-
-RdSDLEventFactory -- RdKey : creates
-RdSDLEventFactory -- RdWindowEvent : creates
-InputManager -- RdSDLEventFactory : uses
+NetworkEventListener <|-- MockupNetworkEventListener
 {% endplantuml %}
 
 
