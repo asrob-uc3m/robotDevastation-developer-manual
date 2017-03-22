@@ -24,10 +24,6 @@ onRespawn(RdPlayer player)
 interface RdMentalMapEventListener
 RdMentalMapEventListener <|-- NetworkManager
 
-
-
-
-
 {% endplantuml %}
 
 The main methods of an `NetworkManager` are: 
@@ -45,13 +41,29 @@ The main methods of an `NetworkManager` are:
 
 ## MockupNetworkManager class
 `MockupNetworkManager` is an implementation of the `NetworkManager` for unit testing purposes.
-It allows to emulate connections with [The Server](the-server.md) without the actual server
+It allows to emulate connections with [The Server](the-server.md) without the actual server being executed. It also allows reading / writing data to the emulated game server to check , for instance, if the player is logged in or to set the game players.
  
-* `sendKeyPress()`: Generates a Key Down followed by a Key Up event of a given key.
-* `sendKeyUp()`: Generates a Key Up event of a given key.
-* `sendKeyDown()`: Generates a Key Down event of a given key.
-* `sendWindowEvent()`: Generates a window event, such as closing the window.
+* `isLoggedIn()`
+* `isStopped()`
+* `setPlayerData()`
+* `getPlayerData()`
+* `sendPlayerData()`
+* `setLoggedIn()`
 
+
+{% plantuml %}
+
+class MockupNetworkManager {
+-- Mockup object API --
+bool isLoggedIn()
+bool isStopped()
+
+bool setPlayerData(vector<RdPlayer> game_players)
+vector<RdPlayer> getPlayerData()
+bool sendPlayerData()
+bool setLoggedIn(bool logged_in)
+}
+{% endplantuml %}
 
 
 
