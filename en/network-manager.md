@@ -31,3 +31,7 @@ The main methods of an `NetworkManager` are:
 
 
 
+## YarpNetworkManager
+-- ?? --
+onTargetHit(RdTarget target, RdPlayer player, RdWeapon weapon)
+onRespawn(RdPlayer player)
