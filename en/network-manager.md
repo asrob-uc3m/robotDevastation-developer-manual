@@ -37,7 +37,7 @@ The main methods of an `NetworkManager` are:
 * `sendPlayerhit()`: notify the server that an enemy has been hit.
 
 ## YarpNetworkManager class
-`YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP]() as communications middleware. 
+`YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP](http://www.yarp.it/) as communications middleware. It uses a `TypedReaderCallback` to receive data from the server
 
 ## MockupInputManager class
 `MockupInputManager` is an implementation of the `InputManager` for unit testing purposes.
