@@ -101,4 +101,12 @@ RdRobotManager <|-- RdMockupRobotManager
 {% endplantuml %}
 
 
+The `RdMockupRobotManager` adds the following methods for testing:
+* `isConnected()`: checks if the game is connected to the robot.
+* `isEnabled()`: checks if the robot is enabled.
 
+* `isMoving()`: check if the robot is moving.
+* `getMovementDirection()`: returns the direction in which the robot is currently moving.
+
+* `isCameraMoving()`: check is the camera is moving.
+* `getCameraMovementDirection()`: returns the direction in which the camera is currently moving.
