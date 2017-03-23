@@ -50,22 +50,22 @@ void setEnabled(bool enabled)
 {% endplantuml %}
 
 The main functions of a `RdRobotManager` are:
-* `moveForward()` 
-* `moveBackwards()`
-* `turnLeft()`
-* `turnRight()`
-* `stopMovement()`
+* `moveForward()`: command the robot to move forward at the specified velocity.
+* `moveBackwards()`: command the robot to move backwards at the specified velocity.
+* `turnLeft()`: command the robot to turn left at the specified velocity.
+* `turnRight()`: command the robot to turn right at the specified velocity.
+* `stopMovement()`: command the robot to stop.
 
-* `tiltUp()`
-* `tiltDown()`
-* `panLeft()` 
-* `panRight)`
-* `stopCameraMovement()`
+* `tiltUp()`: command the robot to move the camera up at the specified velocity.
+* `tiltDown()`: command the robot to move the camera down at the specified velocity.
+* `panLeft()` : command the robot to move the camera to the left at the specified velocity.
+* `panRight)`: command the robot to move the camera to the right at the specified velocity.
+* `stopCameraMovement()`: command the camera to stop moving.
 
-* `connect()`
-* `disconnect()`
-* `test()`
-* `setEnabled()`
+* `connect()`: connect to the robot.
+* `disconnect()`: disconnect from the robot.
+* `test()`: test the connection.
+* `setEnabled()`: enable/disable the robot. A disabled robot cannot move or execute any command.
 
 
 ## RdYarpRobotManager class
