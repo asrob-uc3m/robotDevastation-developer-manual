@@ -19,5 +19,42 @@ RdRobotManager <|-- RdMockupRobotManager
 RdRobotManager <|-- RdYarpRobotManager
 {% endplantuml %}
 
+## RdRobotManager class
+
+The `RdRobotManager` class defines the interface required for communication with a Robot Devastation robot.
+
+{% plantuml %}
+interface RdRobotManager {
+-- Robot movement  --    
+bool moveForward(int velocity = UNUSED)
+bool moveBackwards(int velocity = UNUSED)
+bool turnLeft(int velocity = UNUSED)
+bool turnRight(int velocity = UNUSED)
+bool stopMovement()
+
+-- Robot camera movement --
+bool tiltUp(int velocity = UNUSED)
+bool tiltDown(int velocity = UNUSED)
+bool panLeft(int velocity = UNUSED)
+bool panRight(int velocity = UNUSED)
+bool stopCameraMovement()
+
+-- Robot connection --
+bool connect()
+bool disconnect()
+bool test()
+void setEnabled(bool enabled)
+
+}
+{% endplantuml %}
+
+
+## RdYarpRobotManager class
+`RdYarpRobotManager` is an implementation of the `RdRobotManager` interface using [YARP](http://www.yarp.it/)  as middleware for communications with the robot.
+
+## RdMockupRobotManager class
+`RdMockupRobotManager` is an implementation of the `RdRobotManager` for unit testing purposes.
+
+
 
 
