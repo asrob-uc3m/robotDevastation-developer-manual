@@ -48,6 +48,24 @@ void setEnabled(bool enabled)
 }
 {% endplantuml %}
 
+The main functions of a `RdRobotManager` are:
+* `moveForward()` 
+* `moveBackwards()`
+* `turnLeft()`
+* `turnRight()`
+* `stopMovement()`
+
+* ``tiltUp()`
+* tiltDown()
+* `panLeft()` 
+* `panRight)
+* `stopCameraMovement()`
+
+* `connect()`
+* `disconnect()`
+* `test()`
+* `setEnabled()`
+
 
 ## RdYarpRobotManager class
 `RdYarpRobotManager` is an implementation of the `RdRobotManager` interface using [YARP](http://www.yarp.it/)  as middleware for communications with the robot.
