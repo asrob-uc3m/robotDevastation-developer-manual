@@ -4,7 +4,6 @@
 
 This is the Robot Devastation Developer Manual. Here you will find all the info required to contribute with this project.
 
-# Summary
 * [Summary](README.md)
 * [Introduction](introduction.md)
   * [What is Robot Devastation?](what-is-robot-devastation.md)
@@ -21,10 +20,11 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
   * [Input Management](input-management.md)
     * [Input Manager](input-management/input-manager.md)
     * [Listening to Events](input-management/listening-to-events.md)
-    * Creating Events
+    * [Creating Events](input-management/creating-events.md)
   * [Network Management](network-management.md)
-    * [Network](network.md)
-  * Robot Management
+    * [Network Manager](network-manager.md)
+    * [Listening to Events](listening-to-events.md)
+  * [Robot Management](robot-management.md)
   * User Interface Management
   * Camera Management
   * [Data Management](data-management.md)
@@ -41,6 +41,8 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
 * [Resources](resources.md)
 * [Research](research.md)
 * [Glossary](GLOSSARY.md)
+
+
 
 
 
