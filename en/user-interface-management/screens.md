@@ -6,6 +6,7 @@ interface Screen {
 bool init()
 bool cleanup()
 bool drawScreen(void *screen)
+..Update API..
 bool update(string parameter, string value)
 bool update(string parameter, Image value)
 bool update(string parameter, Player value)
