@@ -26,6 +26,9 @@ The main methods of a `Screen` are:
 * `update()`: updates the `Screen` contents after some displayed parameter has changed. Currently, several signatures are used as they are required by the corresponding `Screen`. An alternative implementation could use void * or templates to simplify the API, leaving a single `update()` method.
 
 # Mock Screen class
+Simple Screen for testing that shows a funny image with a custom message. This message can be configured through the `update()`method.
+
+![](/assets/mockscreen.png)
 
 # Init Screen class
 
