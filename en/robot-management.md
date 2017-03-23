@@ -55,11 +55,13 @@ The main functions of a `RdRobotManager` are:
 * `turnRight()`: command the robot to turn right at the specified velocity.
 * `stopMovement()`: command the robot to stop.
 
+
 * `tiltUp()`: command the robot to move the camera up at the specified velocity.
 * `tiltDown()`: command the robot to move the camera down at the specified velocity.
 * `panLeft()` : command the robot to move the camera to the left at the specified velocity.
 * `panRight)`: command the robot to move the camera to the right at the specified velocity.
 * `stopCameraMovement()`: command the camera to stop moving.
+
 
 * `connect()`: connect to the robot.
 * `disconnect()`: disconnect from the robot.
@@ -105,8 +107,10 @@ The `RdMockupRobotManager` adds the following methods for testing:
 * `isConnected()`: checks if the game is connected to the robot.
 * `isEnabled()`: checks if the robot is enabled.
 
+
 * `isMoving()`: check if the robot is moving.
 * `getMovementDirection()`: returns the direction in which the robot is currently moving.
+
 
 * `isCameraMoving()`: check is the camera is moving.
 * `getCameraMovementDirection()`: returns the direction in which the camera is currently moving.
