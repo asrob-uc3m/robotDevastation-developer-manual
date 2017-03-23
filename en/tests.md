@@ -65,7 +65,7 @@ This test is not automated.
 
 The test displays the MockupScreen.
 
-## testRdInputManager
+## testInputManager
 This test is not automated.
 
 Checks that the SDLInputMananger is able to emulate sending and receiving InputEvents from keyboard.
@@ -75,27 +75,27 @@ Usage:
  * Espace shoots, emitting a sound.
  * Escape exits the test.
  
-## testRdMockupImageManager
+## testMockupImageManager
 Automated test.
 
 Checks that the mock ImageManager is able to emulate sending and receiving images.
 
-## testRdMockupRobotManager
+## testMockupRobotManager
 Automated test.
 
 Checks that the mock RobotManager is able to emulate connecting to the robot and moving it.
 
-## testRdProcessorImageEventListener
+## testProcessorImageEventListener
 Automated test.
 
 Checks that the ImageEventListener in charge of detecting robots on the image works correctly.
 
-## testRdYarpImageManager
+## testYarpImageManager
 Automated test. This test requires an actual webcam connected to the PC in order to work.
 
 Checks that the YarpImageManager grabs images from the webcam.
 
-## testRdYarpNetworkManager
+## testYarpNetworkManager
 Automated test.
 
 Checks that the YarpNetworkManager is able to perform login, logout, sending player info and sending network events. It also tests disconnection when no keep alive message is sent to server.

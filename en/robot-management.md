@@ -10,21 +10,21 @@ check the doxygen documentation.
 The robot system is in charge of communicating with the robot and sending commands to control its movement.
 
 {% plantuml %}
-interface RdRobotManager
+interface RobotManager
 
-Class RdMockupRobotManager
-Class RdYarpRobotManager
+Class MockupRobotManager
+Class YarpRobotManager
 
-RdRobotManager <|-- RdMockupRobotManager
-RdRobotManager <|-- RdYarpRobotManager
+RobotManager <|-- MockupRobotManager
+RobotManager <|-- YarpRobotManager
 {% endplantuml %}
 
-## RdRobotManager class
+## RobotManager class
 
-The `RdRobotManager` class defines the interface required for communication with a Robot Devastation robot.
+The `RobotManager` class defines the interface required for communication with a Robot Devastation robot.
 
 {% plantuml %}
-interface RdRobotManager {
+interface RobotManager {
 --Robot movement  --    
 bool moveForward(int velocity = UNUSED)
 bool moveBackwards(int velocity = UNUSED)
@@ -48,7 +48,7 @@ void setEnabled(bool enabled)
 }
 {% endplantuml %}
 
-The main functions of a `RdRobotManager` are:
+The main functions of a `RobotManager` are:
 * `moveForward()`: command the robot to move forward at the specified velocity.
 * `moveBackwards()`: command the robot to move backwards at the specified velocity.
 * `turnLeft()`: command the robot to turn left at the specified velocity.
@@ -69,15 +69,15 @@ The main functions of a `RdRobotManager` are:
 * `setEnabled()`: enable/disable the robot. A disabled robot cannot move or execute any command.
 
 
-## RdYarpRobotManager class
-`RdYarpRobotManager` is an implementation of the `RdRobotManager` interface using [YARP](http://www.yarp.it/)  as middleware for communications with the robot.
+## YarpRobotManager class
+`YarpRobotManager` is an implementation of the `RobotManager` interface using [YARP](http://www.yarp.it/)  as middleware for communications with the robot.
 
-## RdMockupRobotManager class
-`RdMockupRobotManager` is an implementation of the `RdRobotManager` for unit testing purposes.
+## MockupRobotManager class
+`MockupRobotManager` is an implementation of the `RobotManager` for unit testing purposes.
 
 {% plantuml %}
-interface RdRobotManager
-class RdMockupRobotManager {
+interface RobotManager
+class MockupRobotManager {
 
 --Robot status--
 bool isConnected()
@@ -99,11 +99,11 @@ const int CAMERA_LEFT
 const int CAMERA_RIGHT
 const int CAMERA_NONE
 }
-RdRobotManager <|-- RdMockupRobotManager
+RobotManager <|-- MockupRobotManager
 {% endplantuml %}
 
 
-The `RdMockupRobotManager` adds the following methods for testing:
+The `MockupRobotManager` adds the following methods for testing:
 * `isConnected()`: checks if the game is connected to the robot.
 * `isEnabled()`: checks if the robot is enabled.
 

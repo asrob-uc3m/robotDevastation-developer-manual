@@ -24,17 +24,14 @@ class MockupInputEventListener
  
 InputEventListener <|-- MockupInputEventListener
 
-class RdKey
+class Key
 
-class RdWindowEvent
+class WindowEvent
 
-class RdSDLEventFactory
+class SDLEventFactory
 
-RdSDLEventFactory  -- RdKey : creates
-RdSDLEventFactory -- RdWindowEvent : creates
-InputManager -- RdSDLEventFactory : uses
+SDLEventFactory  -- Key : creates
+SDLEventFactory -- WindowEvent : creates
+InputManager -- SDLEventFactory : uses
 
 {% endplantuml %}
-
-
-

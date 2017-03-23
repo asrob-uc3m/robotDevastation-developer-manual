@@ -3,13 +3,13 @@ When a class needs to receive network events, such as be notified of data arriva
 
 {% plantuml %}
 interface NetworkEventListener {
-bool onDataArrived(vector<RdPlayer> players)
+bool onDataArrived(vector<Player> players)
 }
 
 class MockupNetworkEventListener {
 int getDataArrived()
 void resetDataArrived()
-vector<RdPlayer> getStoredPlayers()
+vector<Player> getStoredPlayers()
 }
 
 NetworkEventListener <|-- MockupNetworkEventListener
@@ -27,7 +27,3 @@ Implements the following functions to extract information about received network
 * `getDataArrived()`: returns the amount of network events received.
 * `resetDataArrived()`: resets the counter of network events received.
 * `getStoredPlayers()`: returns the player data received in the most recent network event.
-
-
-
-
