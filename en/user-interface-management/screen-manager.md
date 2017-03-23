@@ -32,11 +32,7 @@ bool update(std::string parameter, Weapon value)
 
 
 # SDLScreenManager
-{% plantuml %}
-Class SDLScreenManager {
-}
 
-{% endplantuml %}
 
 
 
