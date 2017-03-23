@@ -8,7 +8,7 @@ bool onKeyUp(const Key & k)
 bool onWindowEvent(const WindowEvent & event)
 }
 
-class MockupInputEventListener {
+class MockInputEventListener {
 int getNumKeyDownPresses()
 int getNumKeyUpPresses()
 int getNumWindowEvents()
@@ -21,7 +21,7 @@ vector<WindowEvent> getStoredWindowEvents()
 }
 class Key
 class WindowEvent
-InputEventListener <|-- MockupInputEventListener
+InputEventListener <|-- MockInputEventListener
 InputEventListener -- Key : receives
 InputEventListener -- WindowEvent : receives
 {% endplantuml %}
@@ -34,7 +34,7 @@ This interface has the following functions, that are called when the correspondi
 * `onWindowEvent()`: called when a window event happens, the event passed stores the event type and information.
 
 
-## MockupInputEventListener
+## MockInputEventListener
 
 Implements the following functions to extract information about received input events:
 

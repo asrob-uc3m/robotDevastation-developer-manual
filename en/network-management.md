@@ -12,15 +12,15 @@ The network system is based on the [*listener* design pattern](https://en.wikipe
 {% plantuml %}
 interface NetworkManager
 
-Class MockupNetworkManager
+Class MockNetworkManager
 
-NetworkManager <|-- MockupNetworkManager
+NetworkManager <|-- MockNetworkManager
 
 NetworkManager <|-- YarpNetworkManager
 
 interface NetworkEventListener
 
-class MockupNetworkEventListener
+class MockNetworkEventListener
 
-NetworkEventListener <|-- MockupNetworkEventListener
+NetworkEventListener <|-- MockNetworkEventListener
 {% endplantuml %}

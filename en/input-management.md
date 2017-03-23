@@ -12,17 +12,17 @@ The input system is based on the [*listener* design pattern](https://en.wikipedi
 
 interface InputManager 
  
-Class MockupInputManager
+Class MockInputManager
  
-InputManager <|-- MockupInputManager
+InputManager <|-- MockInputManager
  
 InputManager <|-- SDLInputManager 
 
 interface InputEventListener
   
-class MockupInputEventListener
+class MockInputEventListener
  
-InputEventListener <|-- MockupInputEventListener
+InputEventListener <|-- MockInputEventListener
 
 class Key
 

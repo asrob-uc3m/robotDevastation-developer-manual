@@ -6,13 +6,13 @@ interface NetworkEventListener {
 bool onDataArrived(vector<Player> players)
 }
 
-class MockupNetworkEventListener {
+class MockNetworkEventListener {
 int getDataArrived()
 void resetDataArrived()
 vector<Player> getStoredPlayers()
 }
 
-NetworkEventListener <|-- MockupNetworkEventListener
+NetworkEventListener <|-- MockNetworkEventListener
 {% endplantuml %}
 
 ## NetworkEventListener
@@ -21,7 +21,7 @@ This interface has the following function, that is called when the corresponding
 * `onDataArrived()`: called when the server sends player data.
 
 
-## MockupNetworkEventListener
+## MockNetworkEventListener
 Implements the following functions to extract information about received network events:
 
 * `getDataArrived()`: returns the amount of network events received.

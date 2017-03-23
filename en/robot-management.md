@@ -12,10 +12,10 @@ The robot system is in charge of communicating with the robot and sending comman
 {% plantuml %}
 interface RobotManager
 
-Class MockupRobotManager
+Class MockRobotManager
 Class YarpRobotManager
 
-RobotManager <|-- MockupRobotManager
+RobotManager <|-- MockRobotManager
 RobotManager <|-- YarpRobotManager
 {% endplantuml %}
 
@@ -72,12 +72,12 @@ The main functions of a `RobotManager` are:
 ## YarpRobotManager class
 `YarpRobotManager` is an implementation of the `RobotManager` interface using [YARP](http://www.yarp.it/)  as middleware for communications with the robot.
 
-## MockupRobotManager class
-`MockupRobotManager` is an implementation of the `RobotManager` for unit testing purposes.
+## MockRobotManager class
+`MockRobotManager` is an implementation of the `RobotManager` for unit testing purposes.
 
 {% plantuml %}
 interface RobotManager
-class MockupRobotManager {
+class MockRobotManager {
 
 --Robot status--
 bool isConnected()
@@ -99,11 +99,11 @@ const int CAMERA_LEFT
 const int CAMERA_RIGHT
 const int CAMERA_NONE
 }
-RobotManager <|-- MockupRobotManager
+RobotManager <|-- MockRobotManager
 {% endplantuml %}
 
 
-The `MockupRobotManager` adds the following methods for testing:
+The `MockRobotManager` adds the following methods for testing:
 * `isConnected()`: checks if the game is connected to the robot.
 * `isEnabled()`: checks if the robot is enabled.
 

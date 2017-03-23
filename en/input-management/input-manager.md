@@ -22,8 +22,8 @@ The main methods of an `InputManager` are:
 ## SDLInputManager class
 `SDLInputManager` is an implementation of the `InputManager` interface using SDL as input backend. It sets a callback method that retrives SDL events and converts them to Robot Devastation input events. Currently only some key events and the exit cross on the game screen are supported as event generators.
 
-## MockupInputManager class
-`MockupInputManager` is an implementation of the `InputManager` for unit testing purposes.
+## MockInputManager class
+`MockInputManager` is an implementation of the `InputManager` for unit testing purposes.
 It allows to generate input events from the testing code, without the need for a user. These events are generated from the following functions:
  
 * `sendKeyPress()`: Generates a Key Down followed by a Key Up event of a given key.
@@ -34,14 +34,14 @@ It allows to generate input events from the testing code, without the need for a
 
 {% plantuml %}
 interface InputManager 
-class MockupInputManager {
+class MockInputManager {
 bool sendKeyPress(const Key & key);
 bool sendKeyUp(const Key & key);
 bool sendKeyDown(const Key & key);
 bool sendWindowEvent(const WindowEvent & event);
 }
 
-InputManager <|-- MockupInputManager
+InputManager <|-- MockInputManager
 {% endplantuml %}
 
 ## Dependency with other elements

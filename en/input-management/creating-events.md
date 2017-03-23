@@ -21,4 +21,4 @@ SDLEventFactory -- WindowEvent : creates
 {% endplantuml %}
 
 
-Once created, they can be sent to the corresponding listeners, either manually o through the helper methods present in the `MockupInputManager`.
+Once created, they can be sent to the corresponding listeners, either manually o through the helper methods present in the `MockInputManager`.
