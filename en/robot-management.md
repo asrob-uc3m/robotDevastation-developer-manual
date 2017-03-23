@@ -56,9 +56,9 @@ The main functions of a `RdRobotManager` are:
 * `stopMovement()`
 
 * ``tiltUp()`
-* tiltDown()
+* tiltDown()`
 * `panLeft()` 
-* `panRight)
+* `panRight)`
 * `stopCameraMovement()`
 
 * `connect()`
