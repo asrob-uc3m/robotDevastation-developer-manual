@@ -22,7 +22,7 @@
     * [Listening to Events](listening-to-events.md)
   * [Robot Management](robot-management.md)
   * [User Interface Management](user-interface-management.md)
-    * Screen Manager
+    * [Screen Manager](user-interface-management/screen-manager.md)
     * Screens
   * Camera Management
   * [Data Management](data-management.md)
