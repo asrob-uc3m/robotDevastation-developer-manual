@@ -24,21 +24,14 @@ bool update(string parameter, Weapon value)
 
 The main methods of a `ScreenManager` are:
 
-bool start()
-bool stop()
-bool isStopped() 
+* `start()`,  `stop()` and `isStopped()`: control the manager startup and halting.
 
-configure(
-setCurrentScreen(
-show(
+* `configure()`: configure some UI parameters (e.g. to enable fullscreen mode).
 
-update(
-        bool update(string parameter, string value);
-        virtual bool update(string parameter, Image value); //-- Required by GameScreen and DeadScreen
-        virtual bool update(string parameter, Player value); //-- Required by GameScreen
-        virtual bool update(string parameter, vector<Player> value); //-- Required by GameScreen
-        virtual bool update(string parameter, vector<Target> value); //-- Required by GameScreen
-        virtual bool update(std::string parameter, Weapon value); //-- Required by GameScreen
+* `setCurrentScreen()`: sets a `Screen` to be displayed.
+* `show()`: display the currently selected `Screen`.
+
+* `update()`: updates some UI aspect. Currently, several signatures are used as they are required by the corresponding `Screen`. An alternative implementation could use `void *` or templates to simplify the API, leaving a single `update()` method.
 
 
 ## SDLScreenManager
