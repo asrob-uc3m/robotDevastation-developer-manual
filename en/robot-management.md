@@ -25,7 +25,7 @@ The `RobotManager` class defines the interface required for communication with a
 
 {% plantuml %}
 interface RobotManager {
---Robot movement  --    
+--Robot movement --    
 bool moveForward(int velocity = UNUSED)
 bool moveBackwards(int velocity = UNUSED)
 bool turnLeft(int velocity = UNUSED)
