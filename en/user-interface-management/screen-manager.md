@@ -7,7 +7,7 @@ bool start()
 bool stop()
 bool isStopped()       
 -- Configuration --
-bool configure(std::string parameter, std::string value)
+bool configure(string parameter, string value)
 -- Manager API --
 void setCurrentScreen(Screen* screen)
 bool show()
