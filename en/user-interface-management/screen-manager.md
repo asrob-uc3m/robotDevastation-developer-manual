@@ -15,7 +15,7 @@ bool show()
 bool update(string parameter, Image value)
 bool update(string parameter, Player value)
 bool update(string parameter, vector<Target> value)
-bool update(std::string parameter, Weapon value)
+bool update(string parameter, Weapon value)
 }
 
 {% endplantuml %}
@@ -31,7 +31,7 @@ bool update(std::string parameter, Weapon value)
         virtual bool update(std::string parameter, Weapon value); //-- Required by GameScreen
 
 
-# SDLScreenManager
+## SDLScreenManager
 
 
 
