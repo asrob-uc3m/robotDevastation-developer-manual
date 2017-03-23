@@ -48,3 +48,4 @@ while not exit do
    display / update graphics
 ```
 
+Therefore, as `SDLScreenManager` uses SDL as graphics backend, one must be careful and ensure all the calls to `show()` occur in the same thread as the input is read.
