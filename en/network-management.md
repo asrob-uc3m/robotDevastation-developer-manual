@@ -10,20 +10,17 @@ check the doxygen documentation.
 The network system is based on the [*listener* design pattern](https://en.wikipedia.org/wiki/Observer_pattern), also called *observer pattern*. The NetworkManager generates netowrk events whenever it receives new data from the server. These events store information about the data received, such as the status of the players currently in the game. Other objects, called *listeners* or *observers*, are subscribed to these events, and each time a event is generated, they receive a copy of the event.
 
 {% plantuml %}
-interface RdNetworkManager
+interface NetworkManager
 
-Class MockupNetworkManager
+Class MockNetworkManager
 
-RdNetworkManager <|-- MockupNetworkManager
+NetworkManager <|-- MockNetworkManager
 
-RdNetworkManager <|-- RdYarpNetworkManager
+NetworkManager <|-- YarpNetworkManager
 
-interface RdNetworkEventListener
+interface NetworkEventListener
 
-class MockupNetworkEventListener
+class MockNetworkEventListener
 
-NetworkEventListener <|-- MockupNetworkEventListener
+NetworkEventListener <|-- MockNetworkEventListener
 {% endplantuml %}
-
-
-

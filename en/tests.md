@@ -45,57 +45,57 @@ Automated test.
 
 Checks actions to be performed by the MentalMap, such as receiving and updating players from the server, shooting, reloading and respawning.
 
-## testMockupAudioManager
+## testMockAudioManager
 Automated test.
 
 Checks that the mock AudioManager is able to emulate loading and playing sounds.
 
-## testMockupInputManager
+## testMockInputManager
 Automated test.
 
 Checks that the mock InputManager is able to emulate sending and receiving InputEvents from keyboard, window, etc.
 
-## testMockupNetworkManager
+## testMockNetworkManager
 Automated test.
 
 Checks that the mock NetworkManager is able to emulate login, logout, sending player info and sending network events. It also tests receiving updates from the MentalMap.
 
-## testMockupScreen
+## testMockScreen
 This test is not automated.
 
-The test displays the MockupScreen.
+The test displays the MockScreen.
 
-## testRdInputManager
+## testInputManager
 This test is not automated.
 
-Checks that the SDLInputMananger is able to emulate sending and receiving InputEvents from keyboard.
+Checks that the SDLInputManager is able to emulate sending and receiving InputEvents from keyboard.
 
 Usage:
  * Arrow keys control the crossing point coordinates.
  * Espace shoots, emitting a sound.
  * Escape exits the test.
  
-## testRdMockupImageManager
+## testMockImageManager
 Automated test.
 
 Checks that the mock ImageManager is able to emulate sending and receiving images.
 
-## testRdMockupRobotManager
+## testMockRobotManager
 Automated test.
 
 Checks that the mock RobotManager is able to emulate connecting to the robot and moving it.
 
-## testRdProcessorImageEventListener
+## testProcessorImageEventListener
 Automated test.
 
 Checks that the ImageEventListener in charge of detecting robots on the image works correctly.
 
-## testRdYarpImageManager
+## testYarpImageManager
 Automated test. This test requires an actual webcam connected to the PC in order to work.
 
 Checks that the YarpImageManager grabs images from the webcam.
 
-## testRdYarpNetworkManager
+## testYarpNetworkManager
 Automated test.
 
 Checks that the YarpNetworkManager is able to perform login, logout, sending player info and sending network events. It also tests disconnection when no keep alive message is sent to server.

@@ -3,27 +3,27 @@ When a class needs to receive input events, such as keypresses, it must implemen
 
 {% plantuml %}
 interface InputEventListener {
-bool onKeyDown(const RdKey & k)
-bool onKeyUp(const RdKey & k)
-bool onWindowEvent(const RdWindowEvent & event)
+bool onKeyDown(const Key & k)
+bool onKeyUp(const Key & k)
+bool onWindowEvent(const WindowEvent & event)
 }
 
-class MockupInputEventListener {
+class MockInputEventListener {
 int getNumKeyDownPresses()
 int getNumKeyUpPresses()
 int getNumWindowEvents()
 
 bool clear()
 
-vector<RdKey> getStoredKeyUpPresses()
-vector<RdKey> getStoredKeyDownPresses()
-vector<RdWindowEvent> getStoredWindowEvents()
+vector<Key> getStoredKeyUpPresses()
+vector<Key> getStoredKeyDownPresses()
+vector<WindowEvent> getStoredWindowEvents()
 }
-class RdKey
-class RdWindowEvent
-InputEventListener <|-- MockupInputEventListener
-InputEventListener -- RdKey : receives
-InputEventListener -- RdWindowEvent : receives
+class Key
+class WindowEvent
+InputEventListener <|-- MockInputEventListener
+InputEventListener -- Key : receives
+InputEventListener -- WindowEvent : receives
 {% endplantuml %}
 
 ## InputEventListener
@@ -34,7 +34,7 @@ This interface has the following functions, that are called when the correspondi
 * `onWindowEvent()`: called when a window event happens, the event passed stores the event type and information.
 
 
-## MockupInputEventListener
+## MockInputEventListener
 
 Implements the following functions to extract information about received input events:
 
@@ -45,6 +45,3 @@ Implements the following functions to extract information about received input e
 * `getStoredKeyUpPresses()`: returns a vector of key down events received.
 * `getStoredKeyDownPresses()`: returns a vector of key up events received.
 * `getStoredWindowEvents()`: returns a vector of window events received.
-
-
-

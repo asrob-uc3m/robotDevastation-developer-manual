@@ -49,11 +49,11 @@ cleanup --> [*] : (To next state / end)
 
 This is a simple example to illustrate how to use the StateMachine.
 
-Let us assume we are going to use the "MockupState" to create a StateMachine. The fist step is to include all the required headers:
+Let us assume we are going to use the "MockState" to create a StateMachine. The fist step is to include all the required headers:
 
 ```cpp
 #include "State.hpp"
-#include "MockupState.hpp"
+#include "MockState.hpp"
 #include "StateDirector.hpp"
 #include "YarpStateDirector.hpp"
 #include "StateMachine.hpp"
@@ -75,9 +75,9 @@ builder.setDirectorType("YARP");
 Next step is to add the required states. When adding these states, the function will return us the id given to them. We must keep these ids in order to setup the transitions later.
 
 ```cpp
-int state1_id = builder.addState(new MockupState(1));
-int state2_id = builder.addState(new MockupState(2));
-int state3_id = builder.addState(new MockupState(3));
+int state1_id = builder.addState(new MockState(1));
+int state2_id = builder.addState(new MockState(2));
+int state3_id = builder.addState(new MockState(3));
 ```
 
 If the new() operator is used, the StateMachine will handle the object deletion using delete(). Otherwise we are in charge of deleting the dynamically allocated objects.

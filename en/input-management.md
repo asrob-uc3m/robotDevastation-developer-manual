@@ -12,29 +12,26 @@ The input system is based on the [*listener* design pattern](https://en.wikipedi
 
 interface InputManager 
  
-Class MockupInputManager
+Class MockInputManager
  
-InputManager <|-- MockupInputManager
+InputManager <|-- MockInputManager
  
 InputManager <|-- SDLInputManager 
 
 interface InputEventListener
   
-class MockupInputEventListener
+class MockInputEventListener
  
-InputEventListener <|-- MockupInputEventListener
+InputEventListener <|-- MockInputEventListener
 
-class RdKey
+class Key
 
-class RdWindowEvent
+class WindowEvent
 
-class RdSDLEventFactory
+class SDLEventFactory
 
-RdSDLEventFactory  -- RdKey : creates
-RdSDLEventFactory -- RdWindowEvent : creates
-InputManager -- RdSDLEventFactory : uses
+SDLEventFactory  -- Key : creates
+SDLEventFactory -- WindowEvent : creates
+InputManager -- SDLEventFactory : uses
 
 {% endplantuml %}
-
-
-
