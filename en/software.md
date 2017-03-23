@@ -16,10 +16,11 @@ This chapter deals with the software for the Robot Devastation game.
   * [Input Management](input-management.md)
     * [Input Manager](input-management/input-manager.md)
     * [Listening to Events](input-management/listening-to-events.md)
-    * Creating Events
+    * [Creating Events](input-management/creating-events.md)
   * [Network Management](network-management.md)
-    * [Network](network.md)
-  * Robot Management
+    * [Network Manager](network-manager.md)
+    * [Listening to Events](listening-to-events.md)
+  * [Robot Management](robot-management.md)
   * User Interface Management
   * Camera Management
   * [Data Management](data-management.md)
