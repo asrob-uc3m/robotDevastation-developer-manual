@@ -21,6 +21,6 @@ Screen <|-- GameScreen
 Screen <|-- DeadScreen
 Screen <|-- MockScreen
 
-ScreenManager --shows--> Screen
+ScreenManager -- Screen : shows
 {% endplantuml %}
 
