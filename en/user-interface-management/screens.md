@@ -19,9 +19,10 @@ bool update(string parameter, Weapon value)
 
 The main methods of a `Screen` are:
 
-* `bool init()`
-* `bool cleanup()`
-* `bool drawScreen(void *screen)`
+* `init()`
+* `cleanup()`
+* `drawScreen(void *screen)`
+* `update()`
 * `bool update(string parameter, string value)`
 * `bool update(string parameter, Image value)`
 * `bool update(string parameter, Player value)`
