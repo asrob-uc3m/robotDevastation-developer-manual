@@ -34,8 +34,17 @@ The main methods of a `ScreenManager` are:
 * `update()`: updates some UI aspect. Currently, several signatures are used as they are required by the corresponding `Screen`. An alternative implementation could use `void *` or templates to simplify the API, leaving a single `update()` method.
 
 
-## SDLScreenManager
+## SDLScreenManager class
+`SDLScreenManager` is an implementation of the `ScreenManager` interface using SDL to display graphics.
 
 ### About the SDL graphics loop
+To work properly, SDL requires that all SDL calls (for input, music, graphics, etc) must be performed in the same thread. Otherwise, thread-related exceptions and error start to appear. The typical loop of a SDL program is:
 
+```
+while not exit do
+   read inputs
+   process inputs, compute actions / consecuences
+   process actions
+   display / update graphics
+```
 
