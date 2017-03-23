@@ -73,6 +73,31 @@ The main functions of a `RdRobotManager` are:
 ## RdMockupRobotManager class
 `RdMockupRobotManager` is an implementation of the `RdRobotManager` for unit testing purposes.
 
+{% plantuml %}
+interface RdRobotManager
+class RdMockupRobotManager {
+--Robot status--
+bool isConnected()
+bool isEnabled()
+--Robot movement--
+bool isMoving()
+int getMovementDirection()
+const int FORWARD
+const int BACKWARDS
+const int LEFT
+const int RIGHT
+const int NONE
+--Camera movement --
+bool isCameraMoving()
+int getCameraMovementDirection()
+const int CAMERA_UP
+const int CAMERA_DOWN
+const int CAMERA_LEFT
+const int CAMERA_RIGHT
+const int CAMERA_NONE
+}
+RdRobotManager <| -- RdMockupRobotManager
+{% endplantuml %}
 
 
 
