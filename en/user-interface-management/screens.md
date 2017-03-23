@@ -1,5 +1,5 @@
 # Screen class
-The `ScreenManager` class defines the interface required for managing the UI system in Robot Devastation. Other classes can then define the implementation of the `ScreenManager` according to, for instance, the library selected for displaying graphics on the screen.
+The `Screen` class defines the interface required for a Robot Devastation in-game screen. Inheriting from this class allows the creation of different game screens. Currently, all implementations of game screens use SDL as graphics backend.
 
 {% plantuml %}
 interface Screen {
@@ -17,7 +17,7 @@ bool update(string parameter, Weapon value)
 {% endplantuml %}
 
 
-The main methods of a `ScreenManager` are:
+The main methods of a `Screen` are:
 
 * `bool init()`
 * `bool cleanup()`
