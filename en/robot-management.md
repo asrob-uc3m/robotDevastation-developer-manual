@@ -24,8 +24,7 @@ RobotManager <|-- YarpRobotManager
 The `RobotManager` class defines the interface required for communication with a Robot Devastation robot.
 
 {% plantuml %}
-interface RobotManager 
-{
+interface RobotManager {
 --Robot movement --    
 bool moveForward(int velocity = UNUSED)
 bool moveBackwards(int velocity = UNUSED)
