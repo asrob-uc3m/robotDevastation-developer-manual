@@ -98,7 +98,7 @@ const int CAMERA_LEFT
 const int CAMERA_RIGHT
 const int CAMERA_NONE
 }
-RdRobotManager <| -- RdMockupRobotManager
+RdRobotManager <|-- RdMockupRobotManager
 {% endplantuml %}
 
 
