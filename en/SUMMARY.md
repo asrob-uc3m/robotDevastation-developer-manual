@@ -23,7 +23,7 @@
   * [Robot Management](robot-management.md)
   * [User Interface Management](user-interface-management.md)
     * [Screen Manager](user-interface-management/screen-manager.md)
-    * Screens
+    * [Screens](user-interface-management/screens.md)
   * Camera Management
   * [Data Management](data-management.md)
   * [Tests](tests.md)
