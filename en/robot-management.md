@@ -25,6 +25,7 @@ The `RdRobotManager` class defines the interface required for communication with
 
 {% plantuml %}
 interface RdRobotManager {
+
 -- Robot movement  --    
 bool moveForward(int velocity = UNUSED)
 bool moveBackwards(int velocity = UNUSED)
