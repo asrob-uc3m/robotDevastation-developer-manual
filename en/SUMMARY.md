@@ -22,6 +22,8 @@
     * [Listening to Events](listening-to-events.md)
   * [Robot Management](robot-management.md)
   * [User Interface Management](user-interface-management.md)
+    * Screen Manager
+    * Screens
   * Camera Management
   * [Data Management](data-management.md)
   * [Tests](tests.md)
