@@ -22,8 +22,17 @@ bool update(string parameter, Weapon value)
 {% endplantuml %}
 
 
-The main methods of the 
+The main methods of a `ScreenManager` are:
 
+bool start()
+bool stop()
+bool isStopped() 
+
+configure(
+setCurrentScreen(
+show(
+
+update(
         bool update(string parameter, string value);
         virtual bool update(string parameter, Image value); //-- Required by GameScreen and DeadScreen
         virtual bool update(string parameter, Player value); //-- Required by GameScreen
@@ -34,6 +43,6 @@ The main methods of the
 
 ## SDLScreenManager
 
-
+### About the SDL graphics loop
 
 
