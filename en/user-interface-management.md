@@ -20,5 +20,7 @@ Screen <|-- InitScreen
 Screen <|-- GameScreen
 Screen <|-- DeadScreen
 Screen <|-- MockScreen
+
+ScreenManager --uses--> Screen
 {% endplantuml %}
 
