@@ -21,7 +21,9 @@ This chapter deals with the software for the Robot Devastation game.
     * [Network Manager](network-manager.md)
     * [Listening to Events](listening-to-events.md)
   * [Robot Management](robot-management.md)
-  * User Interface Management
+  * [User Interface Management](user-interface-management.md)
+    * [Screen Manager](user-interface-management/screen-manager.md)
+    * [Screens](user-interface-management/screens.md)
   * Camera Management
   * [Data Management](data-management.md)
   * [Tests](tests.md)
