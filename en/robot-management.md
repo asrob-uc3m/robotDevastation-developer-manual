@@ -77,6 +77,7 @@ The main functions of a `RdRobotManager` are:
 {% plantuml %}
 interface RdRobotManager
 class RdMockupRobotManager {
+
 --Robot status--
 bool isConnected()
 bool isEnabled()
