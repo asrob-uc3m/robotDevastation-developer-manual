@@ -28,7 +28,7 @@ The main methods of a `Screen` are:
 # Mock Screen class
 Simple Screen for testing that shows a funny image with a custom message. This message can be configured through the `update()`method.
 
-![](../assets/mockscreen.png)
+![](assets/mockscreen.png)
 
 # Init Screen class
 `Screen` to be shown when the Robot Devastation game is started ([InitState](init-state.md)). It is just a splash screen showing the Robot Devastation logo.
