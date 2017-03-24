@@ -1,5 +1,7 @@
 # Tests
 
+Robot Devastation has a series of unit tests to support [Test-Driven Development](https://en.wikipedia.org/wiki/Test-driven_development) and [Continuous Integration](https://en.wikipedia.org/wiki/Continuous_integration). This section describes the purpose of each test.
+
 ## testDeadScreen
 This test is not automated.
 
