@@ -30,7 +30,7 @@
     * Processing the received images
   * [Data Management](data-management.md)
     * Data Model
-    * Mental Map
+    * [Mental Map](data-management/mental-map.md)
     * Listening to Events
   * [Tests](tests.md)
 * [The Server](the-server.md)
