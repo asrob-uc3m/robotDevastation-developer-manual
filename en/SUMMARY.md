@@ -24,7 +24,7 @@
   * [User Interface Management](user-interface-management.md)
     * [Screen Manager](user-interface-management/screen-manager.md)
     * [Screens](user-interface-management/screens.md)
-  * Camera Management
+  * [Camera Management](camera-management.md)
   * [Data Management](data-management.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
