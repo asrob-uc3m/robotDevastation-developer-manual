@@ -11,7 +11,8 @@ bool isStopped()
 bool addImageEventListener(InputEventListener * listener)
 bool removeInputEventListeners()
 bool configure(string parameter, string value)
-
+-- ImageManager API--
+RdImage getImage()
 }
 {% endplantuml %}
 
@@ -19,9 +20,9 @@ The main methods of an `ImageManager` are:
 * `start()`, `stop()` and `isStopped()`: control the manager startup and halting.
 * `addImageEventListener()`: registers a `ImageEventListener` that will be notified when new image events are received.
 * `removeImageEventListeners()`: unsuscribes all the registered listeners, and they will not be notified until they are registered again.
-* `configure()`: configure some parameters of the manager.
+* `configure()`: configures some parameters of the manager.
 
-* `getImage()`: ???
+* `getImage()`: returns the last received image.
 
 
 ## YarpImageManager class
