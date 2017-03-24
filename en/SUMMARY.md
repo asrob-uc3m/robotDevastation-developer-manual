@@ -25,6 +25,9 @@
     * [Screen Manager](user-interface-management/screen-manager.md)
     * [Screens](user-interface-management/screens.md)
   * [Camera Management](camera-management.md)
+    * Image Manager
+    * Listening to Events
+    * Processing the received images
   * [Data Management](data-management.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
