@@ -37,9 +37,12 @@ The main methods of an `ImageManager` are:
 It allows to emulate receiving images from the remote robot, which can be loaded from the local hard drive.
 
 {% plantuml %}
-interface MockImageManager {
+class MockImageManager {
 bool receiveImage(RdImage received_image)
 }
+
+interface ImageManager
+ImageManager <|-- MockImageManager
 {% endplantuml %}
 
 
