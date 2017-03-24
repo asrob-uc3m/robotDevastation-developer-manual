@@ -25,7 +25,7 @@
     * [Screen Manager](user-interface-management/screen-manager.md)
     * [Screens](user-interface-management/screens.md)
   * [Camera Management](camera-management.md)
-    * Image Manager
+    * [Image Manager](camera-management/image-manager.md)
     * Listening to Events
     * Processing the received images
   * [Data Management](data-management.md)
