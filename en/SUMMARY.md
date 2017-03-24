@@ -29,6 +29,9 @@
     * Listening to Events
     * Processing the received images
   * [Data Management](data-management.md)
+    * Data Model
+    * Mental Map
+    * Listening to Events
   * [Tests](tests.md)
 * [The Server](the-server.md)
   * [Network Protocol](the-server/network-protocol.md)
