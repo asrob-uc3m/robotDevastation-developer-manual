@@ -36,4 +36,10 @@ The main methods of an `ImageManager` are:
 `MockImageManager` is an implementation of the `mageManager` for unit testing purposes.
 It allows to emulate receiving images from the remote robot, which can be loaded from the local hard drive.
 
+{% plantuml %}
+interface MockImageManager {
+bool receiveImage(RdImage received_image)
+}
+{% endplantuml %}
+
 
