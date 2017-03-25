@@ -18,3 +18,35 @@ int team_id
 int score
 }
 {% endplantuml %}
+
+## Target class
+
+{% plantuml %}
+class Target {
+    int player_id;
+    Vector2d pos;
+    Vector2d dimensions;
+    int belief;
+}
+{% endplantuml %}
+
+Attributes:
+* `player_id`: Id of the player that is represented by this target.
+* `pos` : Center of the box that bounds this target. 
+* `dimensions`: Height and Width of the box that bounds this target.
+* `belief`: Quantity representing how sure we are that this target can currently be seen by the user's robot.
+
+
+
+## Player class
+
+{% plantuml %}
+class Player {
+string name
+int id
+int health
+int max_health
+int team_id
+int score
+}
+{% endplantuml %}
