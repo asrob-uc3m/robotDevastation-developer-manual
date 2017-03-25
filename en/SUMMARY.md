@@ -39,10 +39,7 @@
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
   * [Premium Series](premium_series.md)
-* How to contribute
-  * Come to our meetings!
-  * Issues
-  * Projects
+* [How to contribute](how-to-contribute.md)
 * [Resources](resources.md)
 * [Research](research.md)
 * [Glossary](GLOSSARY.md)
