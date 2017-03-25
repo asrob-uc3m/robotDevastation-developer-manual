@@ -10,8 +10,8 @@ Player getPlayer(int id)
 Player getMyself()
 
 -- Listener API --
-bool addMentalMapEventListener(MentalMapEventListener * listener);
-bool removeMentalMapEventListeners();
+bool addMentalMapEventListener(MentalMapEventListener * listener)
+bool removeMentalMapEventListeners()
 
 -- Update data --
 bool updatePlayers(vector<Player> new_player_vector)
@@ -29,6 +29,5 @@ bool onDataArrived(vector<Player> players)
 }
 interface NetworkEventListener
 NetworkEventListener <|-- MentalMap
-}
 {% endplantuml %}
 
