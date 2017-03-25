@@ -27,7 +27,7 @@
   * [Camera Management](camera-management.md)
     * [Image Manager](camera-management/image-manager.md)
     * [Listening to Events](camera-management/listening-to-events.md)
-    * Processing the received images
+    * [Processing the received images](camera-management/processing-the-received-images.md)
   * [Data Management](data-management.md)
     * Data Model
     * [Mental Map](data-management/mental-map.md)
