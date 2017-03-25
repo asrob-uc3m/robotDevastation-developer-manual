@@ -31,7 +31,7 @@
   * [Data Management](data-management.md)
     * [Data Model](data-management/data-model.md)
     * [Mental Map](data-management/mental-map.md)
-    * Listening to Events
+    * [Listening to Events](data-management/listening-to-events.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
   * [Network Protocol](the-server/network-protocol.md)
