@@ -17,8 +17,10 @@ NetworkEventListener <|-- MentalMap
 interface MentalMapEventListener
 MentalMap -right- MentalMapEventListener : notifies >
 
+package Data Model <<Rectangle>> {
 class Player
 class Target
 class Weapon
+}
 {% endplantuml %}
 
