@@ -3,14 +3,13 @@ These are some resources that we consider interesting for development.
 
 *  [Android version of Robot Devastation (just an old idea).](http://asrob.uc3m.es/index.php/ANDROID)
 
-# Repositorios
+# Repositories
 
- -   [Repositorio de código para PC](https://github.com/asrob-uc3m/robotDevastation)
- -   [Repositorio de código y planos para robots](https://github.com/asrob-uc3m/robotDevastation-robots):
- -   [Documentación de Robot Devastation (doxygen)](http://asrob.uc3m.es/rddoc/index.html)
- -   [Documentación de Robot Devastation-robots (doxygen)](http://asrob.uc3m.es/rdrdoc/index.html)
-
-
+* [Robot Devastation code repository](https://github.com/asrob-uc3m/robotDevastation)
+* [Robot Devastation robot repository](https://github.com/asrob-uc3m/robotDevastation-robots)
+* [Robot Devastation research ideas repository](https://github.com/asrob-uc3m/robotDevastation-research)
+* [Robot Devastation doxygen docs](http://asrob.uc3m.es/rddoc/index.html)
+* [Robot Devastation robots doxygen docs](http://asrob.uc3m.es/rdrdoc/index.html)
 
 
 # Bibliography
