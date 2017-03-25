@@ -29,7 +29,7 @@
     * [Listening to Events](camera-management/listening-to-events.md)
     * [Processing the received images](camera-management/processing-the-received-images.md)
   * [Data Management](data-management.md)
-    * Data Model
+    * [Data Model](data-management/data-model.md)
     * [Mental Map](data-management/mental-map.md)
     * Listening to Events
   * [Tests](tests.md)
