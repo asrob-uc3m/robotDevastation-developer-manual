@@ -34,6 +34,7 @@
     * [Listening to Events](data-management/listening-to-events.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
+  * Robot Devastation Server
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
