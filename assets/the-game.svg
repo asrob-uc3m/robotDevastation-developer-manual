@@ -7,14 +7,14 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="32cm"
-   height="12cm"
-   viewBox="436 163 633 229"
+   width="8.9738588cm"
+   height="6.886446cm"
+   viewBox="436 163 177.51415 131.41634"
    id="svg2"
    version="1.1"
    inkscape:version="0.91 r"
    sodipodi:docname="the-game.svg"
-   inkscape:export-filename="/home/def/Desktop/architecture-general.png"
+   inkscape:export-filename="/home/def/Desktop/the-game.png"
    inkscape:export-xdpi="103"
    inkscape:export-ydpi="103">
   <metadata
@@ -45,43 +45,31 @@
      id="namedview160"
      showgrid="false"
      inkscape:zoom="0.89903847"
-     inkscape:cx="471.98282"
-     inkscape:cy="313.49223"
+     inkscape:cx="300.51245"
+     inkscape:cy="294.25086"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg2"
-     showguides="true" />
+     showguides="true"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0" />
   <text
      font-size="12.8"
-     style="fill: #000000;text-anchor:start;font-family:sans-serif;font-style:normal;font-weight:normal"
-     x="762.122"
-     y="264.67"
+     style="font-style:normal;font-weight:normal;font-size:12.80000019px;font-family:sans-serif;text-anchor:start;fill:#000000"
+     x="532.39697"
+     y="222.69464"
      id="text76">
     <tspan
-       x="762.122"
-       y="264.67"
+       x="532.39697"
+       y="222.69464"
        id="tspan78" />
   </text>
   <g
-     id="g4154"
-     transform="matrix(1.0730613,0,0,1.0981233,1843.8543,447.78105)">
-    <rect
-       transform="scale(-1,1)"
-       style="opacity:0.01000001;fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       id="rect4251"
-       width="160"
-       height="120"
-       x="722.85712"
-       y="-216.20923" />
-    <g
-       style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
-       id="g4253"
-       transform="matrix(-1.2705064,0,0,1.172859,-724.91856,-214.53671)" />
-  </g>
-  <g
      id="g4276"
-     transform="translate(-5.1343265,0)">
+     transform="translate(-234.85937,-41.975378)">
     <g
        transform="matrix(0.61744168,0,0,0.59236332,330.8356,106.2442)"
        style="fill:#abf6ac;fill-opacity:1;stroke-width:3.69243526;stroke-miterlimit:4;stroke-dasharray:none"
@@ -142,19 +130,19 @@
          style="fill:#000000" />
       <polygon
          id="polygon68"
-         points="748.084,396.883 746.982,392.138 767.914,392.138 767.914,396.883 "
+         points="746.982,392.138 767.914,392.138 767.914,396.883 748.084,396.883 "
          style="fill:#b3b3b3" />
       <polygon
          id="polygon70"
-         points="748.084,396.883 746.982,392.138 767.914,392.138 767.914,396.883 "
+         points="746.982,392.138 767.914,392.138 767.914,396.883 748.084,396.883 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
       <polygon
          id="polygon72"
-         points="767.914,396.883 767.914,392.138 776.643,392.138 775.541,396.883 "
+         points="767.914,392.138 776.643,392.138 775.541,396.883 767.914,396.883 "
          style="fill:#b3b3b3" />
       <polygon
          id="polygon74"
-         points="767.914,396.883 767.914,392.138 776.643,392.138 775.541,396.883 "
+         points="767.914,392.138 776.643,392.138 775.541,396.883 767.914,396.883 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
       <rect
          id="rect76"
@@ -172,11 +160,11 @@
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.5" />
       <polygon
          id="polygon80"
-         points="769.948,399.256 769.948,401.629 753.677,401.629 753.677,399.256 757.745,399.256 757.745,396.883 765.88,396.883 765.88,399.256 "
+         points="769.948,401.629 753.677,401.629 753.677,399.256 757.745,399.256 757.745,396.883 765.88,396.883 765.88,399.256 769.948,399.256 "
          style="fill:#b3b3b3" />
       <polygon
          id="polygon82"
-         points="769.948,399.256 769.948,401.629 753.677,401.629 753.677,399.256 757.745,399.256 757.745,396.883 765.88,396.883 765.88,399.256 "
+         points="769.948,401.629 753.677,401.629 753.677,399.256 757.745,399.256 757.745,396.883 765.88,396.883 765.88,399.256 769.948,399.256 "
          style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:1" />
       <text
          id="text84"

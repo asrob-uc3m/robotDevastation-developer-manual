@@ -1,4 +1,4 @@
-# Robot Devastation Developer Manual
+![](/assets/the-game.png)# Robot Devastation Developer Manual
 
 ![logo](assets/125px-Rd.png)
 
