@@ -25,7 +25,7 @@ bool shoot()
 bool reload()
 
 -- NetworkEventListener interface --
-bool onDataArrived(vector<Player> players);
+bool onDataArrived(vector<Player> players)
 }
 interface NetworkEventListener
 NetworkEventListener <|-- MentalMap
