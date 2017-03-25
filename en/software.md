@@ -24,9 +24,16 @@ This chapter deals with the software for the Robot Devastation game.
   * [User Interface Management](user-interface-management.md)
     * [Screen Manager](user-interface-management/screen-manager.md)
     * [Screens](user-interface-management/screens.md)
-  * Camera Management
+  * [Camera Management](camera-management.md)
+    * [Image Manager](camera-management/image-manager.md)
+    * [Listening to Events](camera-management/listening-to-events.md)
+    * [Processing the received images](camera-management/processing-the-received-images.md)
   * [Data Management](data-management.md)
+    * [Data Model](data-management/data-model.md)
+    * [Mental Map](data-management/mental-map.md)
+    * [Listening to Events](data-management/listening-to-events.md)
   * [Tests](tests.md)
+
 
 
 
