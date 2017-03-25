@@ -7,4 +7,4 @@ The `ProcessorImageEventListener` is notified each time a new image is obtained 
 
 Fancy methods could be used to detect other players, but to keep it simple, our current approach uses QR codes to identify players. 
 
-After the location of targets has been obtained, the [MentalMap](mental-map.md) is notified of these changes.
+After the location of targets has been obtained, the [MentalMap](data-management/mental-map.md) is notified of these changes.
