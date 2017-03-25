@@ -13,7 +13,7 @@ Image getStoredImage()
 }
 
 ImageEventListener <|-- MockImageEventListener
-ImageEventListener <|-- ProcessImageEventListener
+ImageEventListener <|-- ProcessorImageEventListener
 
 {% endplantuml %}
 
@@ -29,6 +29,3 @@ Implements the following functions to extract information about received network
 * `getDataArrived()`: returns the amount of image events received.
 * `resetDataArrived()`: resets the counter of image events received.
 * `getStoredImage()`: returns the image received in the most recent image event.
-
-
-## ProcessorImageEventListener 
