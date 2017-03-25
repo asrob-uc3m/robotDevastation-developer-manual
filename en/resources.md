@@ -1,4 +1,7 @@
--   [Versión Android (nada hecho de momento)](http://asrob.uc3m.es/index.php/ANDROID)
+# Resources
+These are some resources that we consider interesting for development.
+
+*  [Android version of Robot Devastation (just an old idea).](http://asrob.uc3m.es/index.php/ANDROID)
 
 # Repositorios
 
@@ -7,17 +10,8 @@
  -   [Documentación de Robot Devastation (doxygen)](http://asrob.uc3m.es/rddoc/index.html)
  -   [Documentación de Robot Devastation-robots (doxygen)](http://asrob.uc3m.es/rdrdoc/index.html)
 
-# Dynamic Linking for plugins
 
--   [Writing DLLs for Linux apps](http://www.ibm.com/developerworks/library/l-dll/)
--   [Stack Overflow (C++: Dynamically loading classes from dlls)](http://stackoverflow.com/questions/431533/c-dynamically-loading-classes-from-dlls)
--   [HowTo: Export classes from a DLL](http://www.codeproject.com/Articles/28969/HowTo-Export-C-classes-from-a-DLL)
 
-# 3D rendering engines
-
--   [OpenSceneGraph](http://www.openscenegraph.org)
--   [Crystal Space](http://www.crystalspace3d.org/main/Main_Page)
--   [OGRE](http://www.ogre3d.org/)
 
 # Bibliography
 
