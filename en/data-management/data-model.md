@@ -19,7 +19,16 @@ int score
 }
 {% endplantuml %}
 
+Attributes:
+* `name`: 
+* `id`: 
+* `health`: 
+* `max_health`: 
+* `team_id`: 
+* `score`: 
+
 ## Target class
+The `Target`class represents the location and perceived size of a enemy robot, and it is related to the player that controls that robot.
 
 {% plantuml %}
 class Target {
@@ -38,6 +47,7 @@ Attributes:
 
 
 ## Weapon class
+The `Weapon` class represents a virtual weapon installed in the robot.
 
 {% plantuml %}
 class Weapon {
