@@ -41,10 +41,10 @@ The main members of this class are:
 * `getMyself()`: Get the player corresponding to the user.
 
 
-* `addWeapon(Weapon weapon)`: 
+* `addWeapon(Weapon weapon)`: stores a new weapon on the `MentalMap`.
 * `getCurrentWeapon()`: obtain the selected weapon.
-* `shoot()`:  perform all the actions to be carried out when the user shoots (sound, update players, etc)
-* `reload()`: perform all the actions to be carried out when the user reloads (sound, update weapons, etc)
+* `shoot()`:  perform all the actions to be carried out when the user shoots (sound, update players, etc).
+* `reload()`: perform all the actions to be carried out when the user reloads (sound, update weapons, etc).
 
 
 * `updatePlayers()`: updates the players' data stored in the `MentalMap`. The current implementation just replaces the players inside the `MentalMap` by the new players received from the server.
