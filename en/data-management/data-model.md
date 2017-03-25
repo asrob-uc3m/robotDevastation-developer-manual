@@ -20,12 +20,13 @@ int score
 {% endplantuml %}
 
 Attributes:
-* `name`: 
-* `id`: 
-* `health`: 
-* `max_health`: 
-* `team_id`: 
-* `score`: 
+* `name`: Name of the player.
+* `id`: Number identifying that player in the game.
+* `health`: Current health of the player's robot.
+* `max_health`: Maximum health of the player's robot.
+* `team_id`: Number identifying the team the player's belongs to. (Note that team play has not been implemented yet).
+* `score`: Current score of the player. (Note that currently the scoring system is not implemented).
+
 
 ## Target class
 The `Target`class represents the location and perceived size of a enemy robot, and it is related to the player that controls that robot.
