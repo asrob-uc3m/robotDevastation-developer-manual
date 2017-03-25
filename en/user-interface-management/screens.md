@@ -28,19 +28,19 @@ The main methods of a `Screen` are:
 # Mock Screen class
 Simple Screen for testing that shows a funny image with a custom message. This message can be configured through the `update()`method.
 
-![](../assets/mockscreen.png)
+![](../../assets/mockscreen.png)
 
 # Init Screen class
 `Screen` to be shown when the Robot Devastation game is started ([InitState](init-state.md)). It is just a splash screen showing the Robot Devastation logo.
 
-![](../assets/initscreen.png)
+![](../../assets/initscreen.png)
 
 # Game Screen class
 This `Screen` is the main game screen. Shows the video stream of the robot's point of view. On top of it, the game HUD, including health, ammo and other players' info is drawn.
 
-![](../assets/gamescreen.png)
+![](../../assets/gamescreen.png)
 
 # Dead Screen class
 This `Screen is shown when the player dies. It shows the time the player has to wait until he is respawned.
 
-![](../assets/deadscreen.png)
+![](../../assets/deadscreen.png)
