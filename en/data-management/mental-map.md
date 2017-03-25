@@ -49,7 +49,7 @@ The main members of this class are:
 
 * `updatePlayers()`: updates the players' data stored in the `MentalMap`. The current implementation just replaces the players inside the `MentalMap` by the new players received from the server.
 * `updateTargets()`: update the targets stored in the `MentalMap`. If a target previously detected is no longer present in the new detections, decreases the belief value until reaching 0. Then, it deletes that target.
-* `respawn()`: restores the health of current player (and does more stuff if needed)
+* `respawn()`: restores the health of current player (and does more stuff if needed).
 
 
 * `addMentalMapEventListener()`: registers a `MentalMapEventListener` that will be notified when new image events are received.
