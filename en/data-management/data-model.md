@@ -23,10 +23,10 @@ int score
 
 {% plantuml %}
 class Target {
-    int player_id;
-    Vector2d pos;
-    Vector2d dimensions;
-    int belief;
+int player_id
+Vector2d pos
+Vector2d dimensions
+int belief
 }
 {% endplantuml %}
 
@@ -37,16 +37,20 @@ Attributes:
 * `belief`: Quantity representing how sure we are that this target can currently be seen by the user's robot.
 
 
-
-## Player class
+## Weapon class
 
 {% plantuml %}
-class Player {
+class Weapon {
 string name
-int id
-int health
-int max_health
-int team_id
-int score
+int damage
+int current_ammo
+int max_ammo
 }
 {% endplantuml %}
+
+Attributes:
+* `name`: Weapon's name.
+* `damage`: Damage that this weapon can inflict in one shot.
+* `current_ammo`: Current ammount of ammo.
+* `max_ammo`: Maximum ammount of ammo.
+
