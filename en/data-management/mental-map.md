@@ -51,8 +51,8 @@ The main members of this class are:
 * `respawn()`: restores the health of current player (and does more stuff if needed)
 
 
-* `addMentalMapEventListener()`: Adds a MentalMapEventListener to the list of observers to be notified of events
-* `removeMentalMapEventListeners()`: Unregisters all the MentalMapEventListener stored
+* `addMentalMapEventListener()`: registers a `MentalMapEventListener` that will be notified when new image events are received.
+* `removeMentalMapEventListeners()`: unsuscribes all the registered listeners, and they will not be notified until they are registered again.
 
 
-* `onDataArrived()`:
+* `onDataArrived()`: this function is called to notify the `MentalMap` that new data has arrived from the server and the stored data has to be updated.
