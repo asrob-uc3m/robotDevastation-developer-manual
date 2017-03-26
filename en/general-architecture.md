@@ -27,6 +27,7 @@ class SDLEventFactory
 SDLEventFactory  -- Key : creates
 SDLEventFactory -- WindowEvent : creates
 InputManager -- SDLEventFactory : uses
+InputManager -- InputEventListener : norifies >
 }
 
 package NetworkManagement <<Rectangle>> {
