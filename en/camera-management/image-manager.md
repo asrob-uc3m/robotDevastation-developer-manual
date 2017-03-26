@@ -12,7 +12,7 @@ bool addImageEventListener(InputEventListener * listener)
 bool removeInputEventListeners()
 bool configure(string parameter, string value)
 -- ImageManager API--
-RdImage getImage()
+Image getImage()
 }
 {% endplantuml %}
 
@@ -33,12 +33,12 @@ The main methods of an `ImageManager` are:
 
 
 ## MockImageManager class
-`MockImageManager` is an implementation of the `mageManager` for unit testing purposes.
+`MockImageManager` is an implementation of the `ImageManager` for unit testing purposes.
 It allows to emulate receiving images from the remote robot, which can be loaded from the local hard drive.
 
 {% plantuml %}
 class MockImageManager {
-bool receiveImage(RdImage received_image)
+bool receiveImage(Image received_image)
 }
 
 interface ImageManager
