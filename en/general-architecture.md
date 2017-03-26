@@ -87,13 +87,20 @@ class Weapon
 }
 
 class Hub
-Hub <|-- ImageManager
-Hub <|-- NetworkManager
-Hub <|-- MentalMap
-Hub <|-- AudioManager
-Hub <|-- InputManager
-Hub <|-- RobotManager
+Hub o-- ImageManager
+Hub o-- NetworkManager
+Hub o-- MentalMap
+Hub o-- AudioManager
+Hub o-- InputManager
+Hub o-- RobotManager
 
+Hub <|-- InitState
+Hub <|-- GameState
+Hub <|-- DeadState
+
+State <|-- InitState
+State <|-- GameState
+State <|-- DeadState
 
 {% endplantuml %}
 
