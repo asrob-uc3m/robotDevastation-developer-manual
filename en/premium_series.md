@@ -1,5 +1,11 @@
 # Premium Series
 
+```
+This section is a work in progress, expect it to be messy and incomplete.
+```
+
+
+
 Robots included in the Premium Series are designed with no limitation in the cost of the robot, resulting in more craziness and awesomeness.
 
 ## General Architecture
