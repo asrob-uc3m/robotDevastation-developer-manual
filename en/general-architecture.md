@@ -70,6 +70,20 @@ ImageEventListener <|-- ProcessorImageEventListener
 ImageManager -right- ImageEventListener : notifies >
 }
 
+package "Data Management" <<Rectangle>> {
+class MentalMap
+interface NetworkEventListener
+NetworkEventListener <|-- MentalMap
+
+interface MentalMapEventListener
+MentalMap -right- MentalMapEventListener : notifies >
+
+package "Data Model" <<Rectangle>> {
+class Player
+class Target
+class Weapon
+}
+}
 
 {% endplantuml %}
 
