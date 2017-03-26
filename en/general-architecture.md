@@ -31,7 +31,7 @@ InputManager -- SDLEventFactory : uses
 
 package NetworkManagement <<Rectangle>> {
 interface NetworkManager
-MentalMapEventListener <| -- NetworkManager
+MentalMapEventListener <|-- NetworkManager
 NetworkManager <|-- MockNetworkManager
 NetworkManager <|-- YarpNetworkManager
 
