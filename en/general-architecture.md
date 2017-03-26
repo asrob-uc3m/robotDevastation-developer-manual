@@ -31,13 +31,14 @@ InputManager -- SDLEventFactory : uses
 
 package NetworkManagement <<Rectangle>> {
 interface NetworkManager
-MentalMapEventListener <|-- NetworkManager
 NetworkManager <|-- MockNetworkManager
 NetworkManager <|-- YarpNetworkManager
 
 interface NetworkEventListener
 NetworkEventListener <|-- MockNetworkEventListener
 }
+MentalMapEventListener <|-- NetworkManager
+
 
 package RobotManagement <<Rectangle>> {
 interface RobotManager
