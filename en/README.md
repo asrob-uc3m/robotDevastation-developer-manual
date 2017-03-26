@@ -39,21 +39,15 @@ This is the Robot Devastation Developer Manual. Here you will find all the info 
     * [Listening to Events](data-management/listening-to-events.md)
   * [Tests](tests.md)
 * [The Server](the-server.md)
+  * [Robot Devastation Server](the-server/robot-devastation-server.md)
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
   * [Premium Series](premium_series.md)
-* How to contribute
-  * Come to our meetings!
-  * Issues
-  * Projects
+* [How to contribute](how-to-contribute.md)
 * [Resources](resources.md)
 * [Research](research.md)
 * [Glossary](GLOSSARY.md)
-
-
-
-
 
 
 
