@@ -37,6 +37,7 @@ NetworkManager <|-- YarpNetworkManager
 
 interface NetworkEventListener
 NetworkEventListener <|-- MockNetworkEventListener
+NetworkManager -- NetworkEventListener : notifies >
 }
 MentalMapEventListener <|-- NetworkManager
 
