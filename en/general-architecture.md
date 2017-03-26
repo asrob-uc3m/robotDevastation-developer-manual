@@ -104,7 +104,7 @@ State <|-- InitState
 State <|-- GameState
 State <|-- DeadState
 
-ProcessorImageEventListener -- MentalMap : notifies
+ProcessorImageEventListener -- MentalMap : notifies >
 {% endplantuml %}
 
 
