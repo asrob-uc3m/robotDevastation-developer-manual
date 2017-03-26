@@ -93,6 +93,7 @@ Hub o-- MentalMap
 Hub o-- AudioManager
 Hub o-- InputManager
 Hub o-- RobotManager
+Hub o-- ScreenManager
 
 Hub <|-- InitState
 Hub <|-- GameState
