@@ -57,6 +57,19 @@ Screen <|-- MockScreen
 ScreenManager -right- Screen : shows >
 }
 
+package "Camera Management" <<Rectangle>> {
+interface ImageManager
+ImageManager <|-- MockImageManager
+ImageManager <|-- YarpImageManager
+ImageManager <|-- YarpLocalImageManager
+
+interface ImageEventListener
+ImageEventListener <|-- MockImageEventListener
+ImageEventListener <|-- ProcessorImageEventListener
+
+ImageManager -right- ImageEventListener : notifies >
+}
+
 
 {% endplantuml %}
 
