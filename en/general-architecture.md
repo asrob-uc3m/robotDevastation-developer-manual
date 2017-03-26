@@ -87,24 +87,29 @@ class Weapon
 }
 }
 
-class Hub
-Hub o-- ImageManager
-Hub o-- NetworkManager
-Hub o-- MentalMap
-Hub o-- AudioManager
-Hub o-- InputManager
-Hub o-- RobotManager
-Hub o-- ScreenManager
+class ManagerHub
+ManagerHub-- ImageManager
+ManagerHub o-- NetworkManager
+ManagerHub o-- MentalMap
+ManagerHub o-- AudioManager
+ManagerHub o-- InputManager
+ManagerHub o-- RobotManager
+ManagerHub o-- ScreenManager
 
-Hub <|-- InitState
-Hub <|-- GameState
-Hub <|-- DeadState
+ManagerHub <|-- InitState
+ManagerHub <|-- GameState
+ManagerHub <|-- DeadState
 
 State <|-- InitState
 State <|-- GameState
 State <|-- DeadState
 
 ProcessorImageEventListener -- MentalMap : notifies >
+
+InputEventListener <|-- InitState
+InputEventListener <|-- GameState
+InputEventListener <|-- DeadState
+
 {% endplantuml %}
 
 
@@ -114,6 +119,6 @@ The game functionality is encapsulated in different managers. Each manager is a 
 [^1] For a debate of wheter this was a good idea or not, see [issue #4](https://github.com/asrob-uc3m/robotDevastation/issues/4).
 
 ## The Game
-The game functionality is implemented as a [Finite State Machine (FSM)](game-fsm.md). Each state of the FSM represents a game state. Each state is a [Hub](general-architecture/hub-class.md), which allows the state to act upon the different game subsystems (user input, user interface, robot, etc).
+The game functionality is implemented as a [Finite State Machine (FSM)](game-fsm.md). Each state of the FSM represents a game state. Each state is a [ManagerHub](general-architecture/hub-class.md), which allows the state to act upon the different game subsystems (user input, user interface, robot, etc).
 
 The game first configures all the different managers. Then, all the different states are constructed and set in the FSM, which is started to run the game.
