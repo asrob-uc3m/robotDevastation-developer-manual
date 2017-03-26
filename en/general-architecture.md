@@ -38,6 +38,26 @@ interface NetworkEventListener
 NetworkEventListener <|-- MockNetworkEventListener
 }
 
+package RobotManagement <<Rectangle>> {
+interface RobotManager
+RobotManager <|-- MockRobotManager
+RobotManager <|-- YarpRobotManager
+}
+
+package "User Interface Management" <<Rectangle>> {
+interface ScreenManager
+ScreenManager <|-- SDLScreenManager
+
+interface Screen
+Screen <|-- InitScreen
+Screen <|-- GameScreen
+Screen <|-- DeadScreen
+Screen <|-- MockScreen
+
+ScreenManager -right- Screen : shows >
+}
+
+
 {% endplantuml %}
 
 
