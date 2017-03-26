@@ -86,6 +86,15 @@ class Weapon
 }
 }
 
+class Hub
+Hub <|-- ImageManager
+Hub <|-- NetworkManager
+Hub <|-- MentalMap
+Hub <|-- AudioManager
+Hub <|-- InputManager
+Hub <|-- RobotManager
+
+
 {% endplantuml %}
 
 
