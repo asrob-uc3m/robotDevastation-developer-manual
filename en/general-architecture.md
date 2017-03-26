@@ -29,6 +29,15 @@ SDLEventFactory -- WindowEvent : creates
 InputManager -- SDLEventFactory : uses
 }
 
+package NetworkManagement <<Rectangle>> {
+interface NetworkManager
+NetworkManager <|-- MockNetworkManager
+NetworkManager <|-- YarpNetworkManager
+
+interface NetworkEventListener
+NetworkEventListener <|-- MockNetworkEventListener
+}
+
 {% endplantuml %}
 
 
