@@ -1,60 +1,6 @@
 # Robot Devastation Developer Manual
 
-![logo](../assets/125px-Rd.png)
+![Robot Devastation Logo](assets/125px-Rd.png)
 
-This is the Robot Devastation Developer Manual. Here you will find all the info required to contribute with this project.
-
-
-* [Summary](README.md)
-* [Introduction](introduction.md)
-  * [What is Robot Devastation?](what-is-robot-devastation.md)
-  * [Overview](overview.md)
-* [The Game](software.md)
-  * [Robot Devastation Overview](general-architecture.md)
-    * [ManagerHub class](general-architecture/hub-class.md)
-  * [Game FSM](game-fsm.md)
-    * [Init State](init-state.md)
-    * [Game State](game-state.md)
-    * [Dead State](dead-state.md)
-    * [Finite State Machine](finite-state-machine.md)
-  * [Sound Management](sound-management.md)
-  * [Input Management](input-management.md)
-    * [Input Manager](input-management/input-manager.md)
-    * [Listening to Events](input-management/listening-to-events.md)
-    * [Creating Events](input-management/creating-events.md)
-  * [Network Management](network-management.md)
-    * [Network Manager](network-manager.md)
-    * [Listening to Events](listening-to-events.md)
-  * [Robot Management](robot-management.md)
-  * [User Interface Management](user-interface-management.md)
-    * [Screen Manager](user-interface-management/screen-manager.md)
-    * [Screens](user-interface-management/screens.md)
-  * [Camera Management](camera-management.md)
-    * [Image Manager](camera-management/image-manager.md)
-    * [Listening to Events](camera-management/listening-to-events.md)
-    * [Processing the received images](camera-management/processing-the-received-images.md)
-  * [Data Management](data-management.md)
-    * [Data Model](data-management/data-model.md)
-    * [Mental Map](data-management/mental-map.md)
-    * [Listening to Events](data-management/listening-to-events.md)
-  * [Tests](tests.md)
-* [The Server](the-server.md)
-  * [Robot Devastation Server](the-server/robot-devastation-server.md)
-  * [Network Protocol](the-server/network-protocol.md)
-* [The Robots](robots.md)
-  * [Rd Series](rd-series.md)
-  * [Premium Series](premium_series.md)
-* [How to contribute](how-to-contribute.md)
-* [Resources](resources.md)
-* [Research](research.md)
-* [Glossary](GLOSSARY.md)
-
-
-
-
-
-
-
-
-
-
+- [GitBook](https://www.gitbook.com/book/asrob-uc3m/robotdevastation-developer-manual) ([READ](https://asrob-uc3m.gitbooks.io/robotdevastation-developer-manual/content/))
+- [GitHub](https://github.com/asrob-uc3m/robotdevastation-developer-manual) ([SUMMARY (index)](https://github.com/asrob-uc3m/robotdevastation-developer-manual/blob/master/en/SUMMARY.md) / [SUMMARY (índice)](https://github.com/asrob-uc3m/robotdevastation-developer-manual/blob/master/es/SUMMARY.md))
