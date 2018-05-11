@@ -1,4 +1,6 @@
-# Manual de Desarrollador de Robot Devastation
+# Robot Devastation Developer Manual
 
-De momento sólo existe la versión en inglés.
+![Robot Devastation Logo](assets/125px-Rd.png)
 
+- [GitBook](https://www.gitbook.com/book/asrob-uc3m/robotdevastation-developer-manual) ([READ](https://asrob-uc3m.gitbooks.io/robotdevastation-developer-manual/content/))
+- [GitHub](https://github.com/asrob-uc3m/robotdevastation-developer-manual) ([SUMMARY (index)](https://github.com/asrob-uc3m/robotdevastation-developer-manual/blob/master/en/SUMMARY.md) / [SUMMARY (índice)](https://github.com/asrob-uc3m/robotdevastation-developer-manual/blob/master/es/SUMMARY.md))
