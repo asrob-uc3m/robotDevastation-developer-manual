@@ -1,6 +1,6 @@
-# Manual de Desarrollador de Robot Devastation
-
 [![Robot Devastation Logo](../assets/robotDevastation-125px.png)](http://asrob-uc3m.github.io/workgroups/2017-05-28-robot-devastation.html)
+
+# Manual de Desarrollador de Robot Devastation (~1%)
 
 Bienvenido al manual de desarrollador de [Robot Devastation](http://asrob-uc3m.github.io/workgroups/2017-05-28-robot-devastation.html).
 
