@@ -46,8 +46,8 @@ Attributes:
 * `dimensions`: Height and Width of the box that bounds this target.
 * `belief`: Quantity representing how sure we are that this target can currently be seen by the user's robot.
 
-
 ## Weapon class
+
 The `Weapon` class represents a virtual weapon installed in the robot.
 
 {% plantuml %}

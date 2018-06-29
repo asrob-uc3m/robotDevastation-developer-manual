@@ -1,4 +1,5 @@
 # Mental Map
+
 The `MentalMap`, stores all the information related to the game elements, such as players, targets and weapons. When some of these elements change, for instance, after a player has been hit, it notifies all the `MentalMapEventListerners` subscribed with a new event.
 
 {% plantuml %}
