@@ -2,7 +2,7 @@
 
 ## Basic elements
 
-The Robot Devastation FSM has three main elements: the State, the State Director, and the FiniteStateMachine.
+The Robot Devastation [FSM](https://en.wikipedia.org/wiki/Finite-state_machine) has three main elements: the State, the State Director, and the FiniteStateMachine.
 
 <img src="/assets/StateMachine.svg" title="Class diagram" alt="Class diagram" width="800" />
 
