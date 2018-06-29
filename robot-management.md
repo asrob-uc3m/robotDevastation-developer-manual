@@ -7,6 +7,7 @@ check the doxygen documentation.
 ```
 
 ## System Overview
+
 The robot system is in charge of communicating with the robot and sending commands to control its movement.
 
 {% plantuml %}
@@ -27,52 +28,33 @@ The `RobotManager` class defines the interface required for communication with a
 interface RobotManager {
 --Robot movement --    
 bool moveForward(int velocity = UNUSED)
-bool moveBackwards(int velocity = UNUSED)
 bool turnLeft(int velocity = UNUSED)
-bool turnRight(int velocity = UNUSED)
 bool stopMovement()
 
 --Robot camera movement --
-bool tiltUp(int velocity = UNUSED)
 bool tiltDown(int velocity = UNUSED)
 bool panLeft(int velocity = UNUSED)
-bool panRight(int velocity = UNUSED)
 bool stopCameraMovement()
-
---Robot connection --
-bool connect()
-bool disconnect()
-bool test()
-void setEnabled(bool enabled)
 
 }
 {% endplantuml %}
 
 The main functions of a `RobotManager` are:
 * `moveForward()`: command the robot to move forward at the specified velocity.
-* `moveBackwards()`: command the robot to move backwards at the specified velocity.
 * `turnLeft()`: command the robot to turn left at the specified velocity.
-* `turnRight()`: command the robot to turn right at the specified velocity.
 * `stopMovement()`: command the robot to stop.
 
 
-* `tiltUp()`: command the robot to move the camera up at the specified velocity.
 * `tiltDown()`: command the robot to move the camera down at the specified velocity.
 * `panLeft()` : command the robot to move the camera to the left at the specified velocity.
-* `panRight)`: command the robot to move the camera to the right at the specified velocity.
 * `stopCameraMovement()`: command the camera to stop moving.
 
-
-* `connect()`: connect to the robot.
-* `disconnect()`: disconnect from the robot.
-* `test()`: test the connection.
-* `setEnabled()`: enable/disable the robot. A disabled robot cannot move or execute any command.
-
-
 ## YarpRobotManager class
+
 `YarpRobotManager` is an implementation of the `RobotManager` interface using [YARP](http://www.yarp.it/)  as middleware for communications with the robot.
 
 ## MockRobotManager class
+
 `MockRobotManager` is an implementation of the `RobotManager` for unit testing purposes.
 
 {% plantuml %}
