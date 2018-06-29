@@ -1,9 +1,9 @@
-## The Game
+# The Game
 ![The Game](/assets/the-game.png)
 
 This chapter deals with the software for the Robot Devastation game. 
 
-### Chapter Summary
+## Chapter Summary
 * [Robot Devastation Overview](general-architecture.md)
   * [HUB class](general-architecture/hub-class.md)
 * [Game FSM](game-fsm.md)
