@@ -1,6 +1,6 @@
 # Resources
-These are some resources that we consider interesting for development.
 
+These are some resources that we consider interesting for development.
 
 ## Repositories
 
@@ -10,10 +10,9 @@ These are some resources that we consider interesting for development.
 * [Robot Devastation doxygen docs](http://asrob.uc3m.es/rddoc/index.html)
 * [Robot Devastation robots doxygen docs](http://asrob.uc3m.es/rdrdoc/index.html)
 
-## Misc.
+## Misc
+
 *  [Android version of Robot Devastation (just an old idea).](http://asrob.uc3m.es/index.php/ANDROID)
-
-
 
 ## Bibliography
 

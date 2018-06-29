@@ -1,7 +1,9 @@
 # Robot Devastation Server
+
 The Robot Devastation server manages the communications between robots and players, keeping track of players, scores, health levels, etc.
 
 ## Main loop
+
 The main execution loop of the Robot devastation perform two tasks:
 
 1. Broadcast player info through broadcast channel.
@@ -9,6 +11,7 @@ The main execution loop of the Robot devastation perform two tasks:
 player out the server.
 
 ## Server API
+
 The Robot Devastation server has a very basic API to deal with all the current game events:
 
 * `help`: returns all the commands available.
