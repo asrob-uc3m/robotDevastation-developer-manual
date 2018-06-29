@@ -1,6 +1,6 @@
 # Summary
 
-* [Summary](README.md)
+* [Readme](README.md)
 * [Introduction](introduction.md)
   * [Overview](overview.md)
 * [The Game](software.md)
