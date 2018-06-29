@@ -1,4 +1,5 @@
 # ScreenManager class
+
 The `ScreenManager` class defines the interface required for managing the UI system in Robot Devastation. Other classes can then define the implementation of the `ScreenManager` according to, for instance, the library selected for displaying graphics on the screen.
 
 {% plantuml %}
@@ -33,11 +34,12 @@ The main methods of a `ScreenManager` are:
 
 * `update()`: updates some UI aspect. Currently, several signatures are used as they are required by the corresponding `Screen`. An alternative implementation could use `void *` or templates to simplify the API, leaving a single `update()` method.
 
-
 ## SDLScreenManager class
+
 `SDLScreenManager` is an implementation of the `ScreenManager` interface using SDL to display graphics.
 
 ### About the SDL graphics loop
+
 To work properly, SDL requires that all SDL calls (for input, music, graphics, etc) must be performed in the same thread. Otherwise, thread-related exceptions and error start to appear. The typical loop of a SDL program is:
 
 ```
