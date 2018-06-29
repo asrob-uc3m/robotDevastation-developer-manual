@@ -7,6 +7,7 @@ check the doxygen documentation.
 ```
 
 ## System Overview
+
 {% plantuml %}
 interface AudioManager 
 
@@ -18,8 +19,6 @@ AudioManager <|-- MockAudioManager
 
 AudioManager <|-- SDLAudioManager
 {% endplantuml %}
-
-
 
 ## AudioManager class
 
@@ -47,9 +46,11 @@ The main methods of an `AudioManager` are:
 * `stopMusic()`: stops all sounds being played.
 
 ## SDLAudioManager class
+
 `SDLAudioManager` is an implementation of the `AudioManager` interface using SDL as audio backend. 
 
 ## MockAudioManager class
+
 `MockAudioManager` is an implementation of the `AudioManager` for unit testing purposes.
 It adds the method `isSoundPlaying()` to check whether or not a sound is currently being played. Note that this class mocks a real `AudioManager`, so it does not produce any actual sound.
 
