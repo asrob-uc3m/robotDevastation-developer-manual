@@ -35,7 +35,5 @@
   * [Robot Devastation Server](the-server/robot-devastation-server.md)
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
-  * [Rd Series](rd-series.md)
-  * [Premium Series](premium-series.md)
 * [Resources](resources.md)
 * [Glossary](GLOSSARY.md)
