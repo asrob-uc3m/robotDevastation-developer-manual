@@ -39,5 +39,4 @@
   * [Premium Series](premium-series.md)
 * [How to contribute](how-to-contribute.md)
 * [Resources](resources.md)
-* [Research](research.md)
 * [Glossary](GLOSSARY.md)
