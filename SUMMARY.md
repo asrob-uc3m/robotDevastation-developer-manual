@@ -36,4 +36,3 @@
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
 * [Resources](resources.md)
-* [Glossary](GLOSSARY.md)
