@@ -1,10 +1,12 @@
 # Finite State Machine (FSM)
 
+## Basic elements
+
 The Robot Devastation FSM has three main elements: the State, the State Director, and the FiniteStateMachine.
 
 <img src="/assets/StateMachine.svg" title="Class diagram" alt="Class diagram" width="800" />
 
-## State
+### State
 
 This is the base class for each state of the FiniteStateMachine.
 
@@ -17,19 +19,19 @@ To create custom states, you mush inherit from this class, and implement the fol
 
 You must also specify and id in the state_id internal variable.
 
-## StateDirector
+### StateDirector
 
 Execution flow of the different states is controlled through a StateDirector class attached to a State. It is not necessary to implement a custom StateDirector for a custom State, as the StateDirector just provides a method to control how States are executed and how transitions are performed.
 
 When a StateDirector is started, it becomes the active StateDirector, and the associated State's setup() function is called. Then, it enters in the run loop, in which, periodically, the StateDirector executes the State's loop() method. After the loop() method is executed, the State's evaluateConditions() function is called, obtaining the id of the next state to be run. If the next state is not the current state, the current state is stopped and the next one is started.
 
-## FiniteStateMachine
+### FiniteStateMachine
 
 The StateMachine class provides a nice interface to manipulate the StateMachine. States are added and configured and, then, the FiniteStateMachine is executed with the start() function. From that point, the FiniteStateMachine takes care of the execution flow and the deletion of the different states once the execution has finished.
 
 To create a FiniteStateMachine, a StateMachineBuilder is typically used. More info about StateMachineBuilder in the examples section.
 
-# Execution flow of the FiniteStateMachine
+## Execution flow of the FiniteStateMachine
 
 {% plantuml %}
 state "setup()" as setup
@@ -44,7 +46,7 @@ cleanup --> [*] : (To next state / end)
 {% endplantuml %}
 
 
-# How to use it
+## How to use it
 
 This is a simple example to illustrate how to use the StateMachine.
 
@@ -116,7 +118,8 @@ fsm->stop();
 
 To learn how to add an end state to finish the FSM flow, check out the next section.
 
-### Adding an end state
+## Adding an end state
+
 An end state is equivalent to a StateDirector with a NULL state. When using the StateMachineBuilder, a special method can be used to add such state:
 
 ```cpp
