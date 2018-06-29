@@ -6,4 +6,4 @@ Robot Devastation is made of three fundamental components:
 
 
 These components are interconnected at different levels:
-![The Robot <-> The Game <-> The Server](../assets/architecture-general.png)
+![The Robot <-> The Game <-> The Server](/assets/architecture-general.png)
