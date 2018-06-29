@@ -1,4 +1,5 @@
 # Creating Events
+
 When a class, such as the `InputManager` needs to send input events, such as keypresses, it creates them using their constructor:
 
 ```cpp
@@ -19,6 +20,5 @@ SDLEventFactory -- Key : creates
 SDLEventFactory -- WindowEvent : creates
 
 {% endplantuml %}
-
 
 Once created, they can be sent to the corresponding listeners, either manually o through the helper methods present in the `MockInputManager`.

@@ -1,4 +1,5 @@
 # Listening to Events
+
 When a class needs to receive network events, such as be notified of data arrival, it must implement the `NetworkEventListener` interface. Once registered in the `NetworkManager`, it will receive network events each time the server generates them.
 
 {% plantuml %}
@@ -16,12 +17,13 @@ NetworkEventListener <|-- MockNetworkEventListener
 {% endplantuml %}
 
 ## NetworkEventListener
+
 This interface has the following function, that is called when the corresponding event is triggered in the `NetworkManager`:
 
 * `onDataArrived()`: called when the server sends player data.
 
-
 ## MockNetworkEventListener
+
 Implements the following functions to extract information about received network events:
 
 * `getDataArrived()`: returns the amount of network events received.

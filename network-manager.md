@@ -1,4 +1,5 @@
 ## NetworkManager class
+
 The `NetworkManager` class defines the interface required for managing the network system in Robot Devastation. Other classes can then define the implementation of the NetworkManager according to, for instance, the library selected for connecting to the network / server.
 Note that configuration of the player data has to be performed **before** the `NetworkManager` is started.
 
@@ -41,13 +42,14 @@ A `NetworkManager` should also implement the required methods of the `MentalMapE
 * `onTargetHit()`: notifies the game server that a player has been hit with `sendPlayerhit()`.
 * `onRespawn()`: restores the player health after respawn.
 
-
 ## YarpNetworkManager class
+
 `YarpNetworkManager` is an implementation of the `NetworkManager` interface using [YARP](http://www.yarp.it/) as communications middleware. It uses a `yarp::os::TypedReaderCallback<yarp::os::Bottle>` to receive data from the server and then notifies listeners that new data has arrived. It also owns a `yarp::os::RpcClient` to send data for login, logout and to notify the server that a robot has been hit.
 
 A `yarp::os::RateThread` is used to send periodically a `keepAlive()` signal to the game server to avoid being logged out.
 
 ## MockNetworkManager class
+
 `MockNetworkManager` is an implementation of the `NetworkManager` for unit testing purposes.
 It allows to emulate connections with [The Server](the-server.md) without the actual server being executed. It also allows reading / writing data to the emulated game server to check , for instance, if the player is logged in or to set the game players.
  

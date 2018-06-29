@@ -1,4 +1,5 @@
 # Listening to Events
+
 When a class needs to receive input events, such as keypresses, it must implement the `InputEventListener` interface. Once registered in the `InputManager`, it will receive input events each time the user generates them.
 
 {% plantuml %}
@@ -27,12 +28,12 @@ InputEventListener -- WindowEvent : receives
 {% endplantuml %}
 
 ## InputEventListener
+
 This interface has the following functions, that are called when the corresponding event is triggered in the `InputManager`:
 
 * `onKeyDown()`: called when a key is pressed, the event passed stores the key that triggered the event.
 * `onKeyUp()`: called when a key is released, the event passed stores the key that triggered the event.
 * `onWindowEvent()`: called when a window event happens, the event passed stores the event type and information.
-
 
 ## MockInputEventListener
 
