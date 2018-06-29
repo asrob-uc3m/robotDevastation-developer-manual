@@ -1,8 +1,7 @@
 # Summary
 
-* [Readme](README.md)
-* [Introduction](introduction.md)
-  * [Overview](overview.md)
+* [Introduction](README.md)
+* [Overview](overview.md)
 * [The Game](software.md)
   * [Robot Devastation Overview](general-architecture.md)
     * [ManagerHub class](general-architecture/hub-class.md)
