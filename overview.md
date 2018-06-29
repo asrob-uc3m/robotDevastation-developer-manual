@@ -1,7 +1,5 @@
 # Overview
 
-This chapter will give you a general idea about Robot Devastation and how it is organized. Following chapters will be devoted to specific parts of Robot Devastation, such as the game software or the robots.
-
 Robot Devastation is made of three fundamental components: 
 * [**The Game**](/software.md): this components is in charge of running the game, processing the data received from the robots and commanding them with the user input. The code for the game software is in [the main Robot Devastation repository](https://github.com/asrob-uc3m/robotDevastation).
 * [**The Server**](/the-server.md): the main purpose of this component is sharing the information about the status of the different robots and reporting actions such as shooting a player. The code for the server software is in [the main Robot Devastation repository](https://github.com/asrob-uc3m/robotDevastation).
