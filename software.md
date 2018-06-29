@@ -5,7 +5,7 @@ This chapter deals with the software for the Robot Devastation game.
 
 ## Chapter Summary
 * [Robot Devastation Overview](general-architecture.md)
-  * [HUB class](general-architecture/hub-class.md)
+  * [ManagerHub class](general-architecture/hub-class.md)
 * [Game FSM](game-fsm.md)
   * [Init State](init-state.md)
   * [Game State](game-state.md)
