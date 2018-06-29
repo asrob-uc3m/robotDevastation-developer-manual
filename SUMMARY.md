@@ -37,7 +37,7 @@
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
-  * [Premium Series](premium_series.md)
+  * [Premium Series](premium-series.md)
 * [How to contribute](how-to-contribute.md)
 * [Resources](resources.md)
 * [Research](research.md)
