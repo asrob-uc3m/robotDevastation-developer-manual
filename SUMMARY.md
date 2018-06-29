@@ -37,6 +37,5 @@
 * [The Robots](robots.md)
   * [Rd Series](rd-series.md)
   * [Premium Series](premium-series.md)
-* [How to contribute](how-to-contribute.md)
 * [Resources](resources.md)
 * [Glossary](GLOSSARY.md)
