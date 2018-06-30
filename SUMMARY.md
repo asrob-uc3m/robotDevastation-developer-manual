@@ -35,4 +35,3 @@
   * [Robot Devastation Server](the-server/robot-devastation-server.md)
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
-* [Resources](resources.md)
