@@ -24,7 +24,7 @@ Cleanup --> [*] : exit requested
 {% endplantuml %}
 
 ## Setup
-In the Setup the game connects with the [NetworkManager](network-management.md) and the [MentalMap](data-management.md) to receive updates (e.g. your health has changed, some player has joined the game, some player died...).
+In the Setup the game connects with the [NetworkManager](/network-management/README.md) and the [MentalMap](/data-management/README.md) to receive updates (e.g. your health has changed, some player has joined the game, some player died...).
 It also starts the video and audio and enables both the user input and the robot controller.
 
 ## Loop
