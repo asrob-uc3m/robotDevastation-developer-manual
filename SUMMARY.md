@@ -2,7 +2,7 @@
 
 * [Introduction](README.md)
 * [Overview](overview.md)
-* [The Game](software.md)
+* [The Game](robotDevastation/README.md)
   * [Robot Devastation Overview](general-architecture/README.md)
     * [ManagerHub class](general-architecture/hub-class.md)
   * [Game FSM](game-fsm/README.md)
