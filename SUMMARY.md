@@ -10,7 +10,7 @@
     * [Game State](game-fsm/game-state.md)
     * [Dead State](game-fsm/dead-state.md)
     * [Finite State Machine](game-fsm/finite-state-machine.md)
-  * [Sound Management](sound-management.md)
+  * [Sound Management](sound-management/README.md)
   * [Input Management](input-management/README.md)
     * [Input Manager](input-management/input-manager.md)
     * [Listening to Events](input-management/listening-to-events.md)
