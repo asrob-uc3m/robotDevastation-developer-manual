@@ -51,7 +51,7 @@ A `yarp::os::RateThread` is used to send periodically a `keepAlive()` signal to 
 ## MockNetworkManager class
 
 `MockNetworkManager` is an implementation of the `NetworkManager` for unit testing purposes.
-It allows to emulate connections with [The Server](the-server.md) without the actual server being executed. It also allows reading / writing data to the emulated game server to check , for instance, if the player is logged in or to set the game players.
+It allows to emulate connections with [The Server](/rdServer/README.md) without the actual server being executed. It also allows reading / writing data to the emulated game server to check , for instance, if the player is logged in or to set the game players.
  
 * `isLoggedIn()`: checks if player is currently logged in the server.
 * `isStopped()`: checks if the manager is stopped.
