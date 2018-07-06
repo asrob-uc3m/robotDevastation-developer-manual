@@ -31,7 +31,7 @@
     * [Mental Map](data-management/mental-map.md)
     * [Listening to Events](data-management/listening-to-events.md)
   * [Tests](tests.md)
-* [The Server](the-server.md)
+* [The Server](the-server/README.md)
   * [Robot Devastation Server](the-server/robot-devastation-server.md)
   * [Network Protocol](the-server/network-protocol.md)
 * [The Robots](robots.md)
