@@ -4,7 +4,7 @@
 * [Overview](overview.md)
 * [The Game (robotDevastation)](robotDevastation/README.md)
   * [robotDevastation Overview](robotDevastation/general-architecture/README.md)
-    * [ManagerHub class](robotDevastation/general-architecture/hub-class.md)
+    * [ManagerHub class](robotDevastation/general-architecture/ManagerHub.md)
   * [Game FSM](robotDevastation/game-fsm/README.md)
     * [Init State](robotDevastation/game-fsm/init-state.md)
     * [Game State](robotDevastation/game-fsm/game-state.md)
