@@ -22,7 +22,7 @@
   * [User Interface Management](user-interface-management/README.md)
     * [Screen Manager](user-interface-management/screen-manager.md)
     * [Screens](user-interface-management/screens.md)
-  * [Camera Management](camera-management.md)
+  * [Camera Management](camera-management/README.md)
     * [Image Manager](camera-management/image-manager.md)
     * [Listening to Events](camera-management/listening-to-events.md)
     * [Processing the received images](camera-management/processing-the-received-images.md)
