@@ -11,7 +11,7 @@
     * [Dead State](dead-state.md)
     * [Finite State Machine](finite-state-machine.md)
   * [Sound Management](sound-management.md)
-  * [Input Management](input-management.md)
+  * [Input Management](input-management/README.md)
     * [Input Manager](input-management/input-manager.md)
     * [Listening to Events](input-management/listening-to-events.md)
     * [Creating Events](input-management/creating-events.md)
