@@ -5,7 +5,7 @@
 * [The Game](software.md)
   * [Robot Devastation Overview](general-architecture/README.md)
     * [ManagerHub class](general-architecture/hub-class.md)
-  * [Game FSM](game-fsm.md)
+  * [Game FSM](game-fsm/README.md)
     * [Init State](init-state.md)
     * [Game State](game-state.md)
     * [Dead State](dead-state.md)
