@@ -3,7 +3,6 @@
 
 This chapter deals with the software for the Robot Devastation game. 
 
-## Chapter Summary
 * [Robot Devastation Overview](general-architecture/README.md)
   * [ManagerHub class](general-architecture/hub-class.md)
 * [Game FSM](game-fsm.md)
