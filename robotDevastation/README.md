@@ -9,7 +9,7 @@ This chapter deals with the software for the Robot Devastation game.
     * [Init State](game-fsm/init-state.md)
     * [Game State](game-fsm/game-state.md)
     * [Dead State](game-fsm/dead-state.md)
-    * [Finite State Machine](game-fsm/finite-state-machine.md)
+    * [Finite State Machine](game-fsm/FiniteStateMachine.md)
   * [Managers](managers/README.md)
     * [Sound Management](managers/sound-management/README.md)
     * [Input Management](managers/input-management/README.md)
