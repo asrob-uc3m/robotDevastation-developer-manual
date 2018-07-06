@@ -31,7 +31,7 @@
       * [Data Model](robotDevastation/managers/data-management/data-model.md)
       * [Mental Map](robotDevastation/managers/data-management/mental-map.md)
       * [Listening to Events](robotDevastation/managers/data-management/listening-to-events.md)
-  * [Tests](tests.md)
+  * [Tests](robotDevastation/tests.md)
 * [The Server](the-server/README.md)
   * [Robot Devastation Server](the-server/robot-devastation-server.md)
   * [Network Protocol](the-server/network-protocol.md)
