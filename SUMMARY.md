@@ -3,7 +3,7 @@
 * [Introduction](README.md)
 * [Overview](overview.md)
 * [The Game \(robotDevastation\)](robotDevastation/README.md)
-  * [ManagerHub class](robotDevastation/ManagerHub.md)
+  * [ManagerHub Class](robotDevastation/ManagerHub.md)
   * [Game FSM](robotDevastation/game-fsm/README.md)
     * [Init State](robotDevastation/game-fsm/init-state.md)
     * [Game State](robotDevastation/game-fsm/game-state.md)
