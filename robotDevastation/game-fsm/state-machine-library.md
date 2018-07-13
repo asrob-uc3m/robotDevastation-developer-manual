@@ -10,7 +10,7 @@ The `robotDevastation` FSM is implementend in [StateMachineLib](http://asrob.uc3
 
 To create custom states, you mush inherit from the [State class](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), and implement the corresponding members.
 
-You must also specify an id in the `state_id` internal variable.
+You must also specify an ID in the `state_id` internal string variable.
 
 ### StateDirector
 
