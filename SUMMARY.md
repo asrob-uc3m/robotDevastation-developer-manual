@@ -2,8 +2,8 @@
 
 * [Introduction](README.md)
 * [Overview](overview.md)
-* [The Game (robotDevastation)](robotDevastation/README.md)
-  * [robotDevastation Overview](robotDevastation/overview.md)
+* [The Game \(robotDevastation\)](robotDevastation/README.md)
+  * [Overview](robotDevastation/overview.md)
   * [ManagerHub class](robotDevastation/ManagerHub.md)
   * [Game FSM](robotDevastation/game-fsm/README.md)
     * [Init State](robotDevastation/game-fsm/init-state.md)
@@ -32,7 +32,8 @@
       * [Mental Map](robotDevastation/managers/data-management/mental-map.md)
       * [Listening to Events](robotDevastation/managers/data-management/listening-to-events.md)
   * [Tests](robotDevastation/tests.md)
-* [The Server (rdServer)](rdServer/README.md)
+* [The Server \(rdServer\)](rdServer/README.md)
   * [Robot Devastation Server](rdServer/robot-devastation-server.md)
   * [Network Protocol](rdServer/network-protocol.md)
-* [The Robots (robotDevastation-robots)](robots.md)
+* [The Robots \(robotDevastation-robots\)](robots.md)
+
