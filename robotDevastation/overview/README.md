@@ -119,5 +119,5 @@ The game functionality is implemented as a [Finite State Machine (FSM)](../game-
 
 The game first configures all the different managers. Then, all the different states are constructed and set in the FSM, which is started to run the game.
 
-## The Managers
+## The Game Managers
 The game functionality is encapsulated in different managers. Each manager is currently implemented as a [singleton](https://en.wikipedia.org/wiki/Singleton_pattern), as they are typically related to unique system or device (for a debate of whether this was a good idea or not, see [robotDevastation#4](https://github.com/asrob-uc3m/robotDevastation/issues/4)).
