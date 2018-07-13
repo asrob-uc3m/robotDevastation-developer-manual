@@ -18,7 +18,6 @@ note top of GameState
 end note
 {% endplantuml %}
 
-
 There are three main states in `robotDevastation`, each of them with different pre-state, state and post-state conditions:
 
  * [Init State](init-state.md): the game starts in this state, showing the initial splash screen. When user is ready, it logs in the player.
