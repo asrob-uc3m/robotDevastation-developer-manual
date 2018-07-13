@@ -8,16 +8,9 @@ The `robotDevastation` FSM is implementend in [StateMachineLib](http://asrob.uc3
 
 ### State
 
-The [State class](http://asrob.uc3m.es/rddoc/classrd_1_1State.html) is the base class for each state of the FiniteStateMachine.
+To create custom states, you mush inherit from the [State class](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), and implement the corresponding members.
 
-To create custom states, you mush inherit from this class, and implement the following members:
-
--   **setup()** -&gt; Function executed just before the loop function, when the state is enabled, returns false if some problem ocurred.
--   **loop()** -&gt; Function executed periodically when the state is active, returns false if some problem ocurred.
--   **cleanup()** -&gt; Function excuted when this state is going to be stopped (due to an error or a transition), false if some problem ocurred.
--   **evaluateConditions()** -&gt; This function is called after each call to loop() in order to know the transition to make. An integer value is assigned to each possible transition to identify them. This functions must return the transition selected depending on the conditions of the state.
-
-You must also specify and id in the state_id internal variable.
+You must also specify an id in the `state_id` internal variable.
 
 ### StateDirector
 
