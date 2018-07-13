@@ -118,7 +118,7 @@ InputEventListener <|-- DeadState
 {% endplantuml %}
 
 ## The Game FSM
-The game functionality is implemented as a [Finite State Machine (FSM)](https://en.wikipedia.org/wiki/Finite-state_machine),  which will be explained at the  [Game FSM](game-fsm/README.md) section. Each state of the FSM represents a game state. Each state is implemented as a [ManagerHub](ManagerHub.md), which allows the state to act upon the different game subsystems (user input, user interface, robot, etc).
+The game functionality is implemented as a [Finite State Machine (FSM)](https://en.wikipedia.org/wiki/Finite-state_machine), which will be explained at the [Game FSM](game-fsm/README.md) section. Each state of the FSM represents a game state. Each state inherits from the [ManagerHub class](http://asrob.uc3m.es/rddoc/classrd_1_1ManagerHub.html), which allows the state to act upon the different game subsystems (user input, user interface, robot, etc).
 
 The game first configures all the different managers. Then, all the different states are constructed and set in the FSM, which is started to run the game.
 
