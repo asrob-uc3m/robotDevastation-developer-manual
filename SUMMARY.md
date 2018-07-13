@@ -8,7 +8,7 @@
     * [Init State](robotDevastation/game-fsm/init-state.md)
     * [Game State](robotDevastation/game-fsm/game-state.md)
     * [Dead State](robotDevastation/game-fsm/dead-state.md)
-    * [Finite State Machine](robotDevastation/game-fsm/FiniteStateMachine.md)
+    * [State Machine Library](robotDevastation/game-fsm/FiniteStateMachine.md)
   * [Managers](robotDevastation/managers/README.md)
     * [Sound Management](robotDevastation/managers/sound-management/README.md)
     * [Input Management](robotDevastation/managers/input-management/README.md)

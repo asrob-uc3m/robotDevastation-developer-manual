@@ -1,4 +1,4 @@
-# Finite State Machine (FSM)
+# State Machine Library
 
 ## Basic elements
 
