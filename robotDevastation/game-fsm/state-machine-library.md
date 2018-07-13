@@ -8,7 +8,7 @@ The `robotDevastation` FSM is implementend in [StateMachineLib](http://asrob.uc3
 
 ### State
 
-This is the base class for each state of the FiniteStateMachine.
+The [State class](http://asrob.uc3m.es/rddoc/classrd_1_1State.html) is the base class for each state of the FiniteStateMachine.
 
 To create custom states, you mush inherit from this class, and implement the following members:
 
@@ -21,7 +21,7 @@ You must also specify and id in the state_id internal variable.
 
 ### StateDirector
 
-Execution flow of the different states is controlled through a StateDirector class attached to a State. It is not necessary to implement a custom StateDirector for a custom State, as the StateDirector just provides a method to control how States are executed and how transitions are performed.
+Execution flow of the different states is controlled through a [StateDirector class](http://asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html) attached to a State. It is not necessary to implement a custom StateDirector for a custom State, as the StateDirector just provides a method to control how States are executed and how transitions are performed.
 
 When a StateDirector is started, it becomes the active StateDirector, and the associated State's setup() function is called. Then, it enters in the run loop, in which, periodically, the StateDirector executes the State's loop() method. After the loop() method is executed, the State's evaluateConditions() function is called, obtaining the id of the next state to be run. If the next state is not the current state, the current state is stopped and the next one is started.
 
