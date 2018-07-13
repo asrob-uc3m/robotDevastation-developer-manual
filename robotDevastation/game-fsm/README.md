@@ -23,5 +23,3 @@ There are three main states in `robotDevastation`, each of them with different p
  * [Init State](init-state.md): the game starts in this state, showing the initial splash screen. When user is ready, it logs in the player.
  * [Game State](game-state.md): main state of the game. Combats and robot movement happen in this state.
  * [Dead State](dead-state.md): you arrive to this state when you die, and remain there for a certain amount of time until you can be respawned into the game.
-
-Each game state inherits from the [ManagerHub class](http://asrob.uc3m.es/rddoc/classrd_1_1ManagerHub.html), and has access to all the different managers present in `robotDevastation`.
