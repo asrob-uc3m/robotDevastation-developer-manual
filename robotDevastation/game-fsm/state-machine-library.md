@@ -27,7 +27,7 @@ When a StateDirector is started, it becomes the active StateDirector, and the as
 
 ### FiniteStateMachine
 
-The StateMachine class provides a nice interface to manipulate the StateMachine. States are added and configured and, then, the FiniteStateMachine is executed with the start() function. From that point, the FiniteStateMachine takes care of the execution flow and the deletion of the different states once the execution has finished.
+The [FiniteStateMachine class](http://asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html) provides a nice interface to manipulate the StateMachine. States are added and configured and, then, the FiniteStateMachine is executed with the start() function. From that point, the FiniteStateMachine takes care of the execution flow and the deletion of the different states once the execution has finished.
 
 To create a FiniteStateMachine, a StateMachineBuilder is typically used. More info about StateMachineBuilder in the examples section.
 
