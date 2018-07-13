@@ -2,7 +2,7 @@
 
 ## Basic elements
 
-The `robotDevastation` [Finite State Machine (FSM)](https://en.wikipedia.org/wiki/Finite-state_machine) is implementend in [StateMachineLib](http://asrob.uc3m.es/rddoc/group__StateMachineLib.html) has three main classes: [State](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), [StateDirector](http://asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html), and [FiniteStateMachine](http://asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html).
+The `robotDevastation` FSM is implementend in [StateMachineLib](http://asrob.uc3m.es/rddoc/group__StateMachineLib.html) has three main classes: [State](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), [StateDirector](http://asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html), and [FiniteStateMachine](http://asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html).
 
 <img src="/assets/StateMachine.svg" title="Class diagram" alt="Class diagram" width="800" />
 
