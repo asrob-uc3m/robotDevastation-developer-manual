@@ -1,6 +1,6 @@
 # State Machine Library
 
-## Basic elements
+## Main classes
 
 The `robotDevastation` FSM is implementend in [StateMachineLib](http://asrob.uc3m.es/rddoc/group__StateMachineLib.html) has three main classes: [State](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), [StateDirector](http://asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html), and [FiniteStateMachine](http://asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html).
 
