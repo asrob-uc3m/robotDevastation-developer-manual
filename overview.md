@@ -1,5 +1,7 @@
 # Overview
 
+Robot Devastation is fundamentally programmed in C/C++. We mostly follow the developer practices of [roboticslab-uc3m/developer-manual](https://github.com/roboticslab-uc3m/developer-manual).
+
 Robot Devastation is made of three fundamental components: 
 * [The Game (`robotDevastation`)](/robotDevastation/README.md): this component is in charge of running the game, processing the data received from the robots and commanding them with the user input. The code for the game software is in the [Main Repository (robotDevastation)](https://github.com/asrob-uc3m/robotDevastation).
 * [The Server (`rdServer`)](/rdServer/README.md): the main purpose of this component is sharing the information about the status of the different robots and reporting actions such as shooting a player. The code for the server software is also in the [Main Repository (robotDevastation)](https://github.com/asrob-uc3m/robotDevastation).
