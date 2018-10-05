@@ -1,6 +1,6 @@
 # Overview
 
-Robot Devastation is fundamentally programmed in C/C++, basically because we are close to hardware (wireless communications, webcams, motor drivers, etc). We do envision a future with Python or similar for NPCs (at time of writing, see issue [robotDevastation-research#3](https://github.com/asrob-uc3m/robotDevastation-research/issues/3). For basic programming practices, [main-developer-tools](https://github.com/roboticslab-uc3m/developer-manual/blob/master/main-developer-tools.md) is a good entry point, with the following particularities:
+Robot Devastation is fundamentally programmed in C/C++, basically because we are close to hardware (wireless communications, webcams, motor drivers, etc). We do envision a future with Python or similar for robot AI (at time of writing, see issue [robotDevastation-research#3](https://github.com/asrob-uc3m/robotDevastation-research/issues/3)). For basic programming practices, [main-developer-tools](https://github.com/roboticslab-uc3m/developer-manual/blob/master/main-developer-tools.md) is a good entry point, with the following particularities:
 * Better native OS for development. 
 
 Robot Devastation is made of three fundamental components: 
