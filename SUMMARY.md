@@ -33,5 +33,5 @@
 * [The Server \(rdServer\)](rdServer/README.md)
   * [Robot Devastation Server](rdServer/robot-devastation-server.md)
   * [Network Protocol](rdServer/network-protocol.md)
-* [The Robots \(robotDevastation-robots\)](robots.md)
+* [The Robots \(robotDevastation-robots\)](robots/README.md)
 
