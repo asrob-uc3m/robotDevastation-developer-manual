@@ -32,7 +32,7 @@ sudo make install
 Documentation [here](https://github.com/asrob-uc3m/yarp-devices/blob/develop/doc/yarp-devices-install.md)
 
 ### Notes about devices on raspi
-Both camera and motors are set as `services` via `daemontools`.
+Both camera and motors are set as `services` via `daemontools` (done at [robotDevastation-robots#29](https://github.com/asrob-uc3m/robotDevastation-robots/issues/29)).
 - [See old example guide (Spanish)](http://asrob.uc3m.es/index.php/C%C3%B3mo_configurar_el_arranque_del_software_de_RD1_sobre_Raspbian_7)
 - Since services go in `/etc/service`, updated samples can be found in https://github.com/asrob-uc3m/robotDevastation-robots/tree/develop/scripts/etc/service
 
