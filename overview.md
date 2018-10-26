@@ -2,7 +2,7 @@
 
 Robot Devastation is fundamentally programmed in C/C++, basically because we are close to hardware (wireless communications, webcams, motor drivers, etc). However, specifically for robot AI (at time of writing, see issue [robotDevastation-research#3](https://github.com/asrob-uc3m/robotDevastation-research/issues/3)), we can consider using a higher-level programming language such as Python.
 
-For Robot Devastation development our current trend is on a native Ubuntu 16.04 partition, using Qt Creator as an IDE that can directly handle our CMake projects. For other best programming practices, [main-developer-tools](https://github.com/roboticslab-uc3m/developer-manual/blob/master/main-developer-tools.md) is a good entry point.
+For Robot Devastation development our current trend is on a native Ubuntu 16.04 partition, using Qt Creator as an IDE that can directly handle our CMake projects. For most of our best programming practices, [main-developer-tools](https://github.com/roboticslab-uc3m/developer-manual/blob/master/main-developer-tools.md) is a good entry point.
 
 Robot Devastation is made of three fundamental components:
 * [The Game (`robotDevastation`)](/robotDevastation/README.md): this component is in charge of running the game, processing the data received from the robots and commanding them with the user input. The code for the game software is in the [Main Repository (robotDevastation)](https://github.com/asrob-uc3m/robotDevastation).
