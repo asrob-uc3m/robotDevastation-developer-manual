@@ -39,17 +39,17 @@ Both camera and motors are set as `services` via `daemontools`.
 apt-get install daemontools daemontools-run csh
 ```
 
-1. Activate `daemontools` in `/etc/rc.local` through the line (before exit):
+2. Activate `daemontools` in `/etc/rc.local` through the line (before exit):
 ```bash
 /bin/csh -cf '/usr/bin/svscanboot &'
 ```
 
-1. Create the folder for services if it does not exist:
+3. Create the folder for services if it does not exist:
 ```bash
 sudo mkdir -p /etc/service
 ```
 
-1. Install the camera YARP device service, assign permissions:
+4. Install the camera YARP device service, assign permissions:
 ```bash
 # Linking the raw of https://github.com/asrob-uc3m/robotDevastation-robots/blob/develop/scripts/etc/service/launchCamera/run
 wget https://raw.githubusercontent.com/asrob-uc3m/robotDevastation-robots/develop/scripts/etc/service/launchCamera/run
@@ -58,7 +58,7 @@ sudo mv run /etc/service/launchCamera/run
 sudo chmod 755 /etc/service/launchCamera/run
 ```
 
-1. Install the robot YARP service, assign permissions:
+5. Install the robot YARP service, assign permissions:
 ```bash
 # Linking the raw of https://github.com/asrob-uc3m/robotDevastation-robots/blob/develop/scripts/etc/service/launchRobot/run
 wget https://raw.githubusercontent.com/asrob-uc3m/robotDevastation-robots/develop/scripts/etc/service/launchRobot/run
@@ -67,7 +67,7 @@ sudo mv run /etc/service/launchRobot/run
 sudo chmod 755 /etc/service/launchRobot/run
 ```
 
-1. Install the required `.ini` files in `share/launch` (yes, we did this at [robotDevastation-robots#29](https://github.com/asrob-uc3m/robotDevastation-robots/issues/29)):
+6. Install the required `.ini` files in `share/launch` (yes, we did this at [robotDevastation-robots#29](https://github.com/asrob-uc3m/robotDevastation-robots/issues/29)):
 ```bash
 git clone https://github.com/asrob-uc3m/robotDevastation-robots
 mkdir robotDevastation-robots/build  && cd robotDevastation-robots/build
@@ -76,13 +76,13 @@ make -j4
 sudo make install
 ```
 
-1. Review your camera `.ini` files: Camera YARP device should be fine with `opencv_grabber`, the `robotDevastation-robots/share/launch/launchCamera.ini` should be installed at `/usr/local/share/robotDevastation-robots/contexts/launch/launchCamera.ini`.
+7. Review your camera `.ini` files: Camera YARP device should be fine with `opencv_grabber`, the `robotDevastation-robots/share/launch/launchCamera.ini` should be installed at `/usr/local/share/robotDevastation-robots/contexts/launch/launchCamera.ini`.
 
-1. Review your robot motor `.ini` files: the `robotDevastation-robots/share/launch/launchRobot.ini` should be installed at `/usr/local/share/robotDevastation-robots/contexts/launch/launchRobot.ini`. At least two possibilities here:
+8. Review your robot motor `.ini` files: the `robotDevastation-robots/share/launch/launchRobot.ini` should be installed at `/usr/local/share/robotDevastation-robots/contexts/launch/launchRobot.ini`. At least two possibilities here:
    1. Direct PWM to servo, such as [RD1](https://github.com/asrob-uc3m/rd1) and [RD2](https://github.com/asrob-uc3m/rd2): [RaspiOnePwmMotorController device](https://github.com/asrob-uc3m/yarp-devices/tree/develop/libraries/YarpPlugins/RaspiOnePwmMotorController) ([permalink](https://github.com/asrob-uc3m/yarp-devices/tree/0586c4a9d571f9959188486ca544deebbc2ddaa2/libraries/YarpPlugins/RaspiOnePwmMotorController))
    2. H-Bridge, such as [RD Ambassador](https://github.com/asrob-uc3m/rd-ambassador): [RaspiTwoPwmMotorController device](https://github.com/asrob-uc3m/yarp-devices/tree/develop/libraries/YarpPlugins/RaspiTwoPwmMotorController) ([permalink](https://github.com/asrob-uc3m/yarp-devices/tree/0586c4a9d571f9959188486ca544deebbc2ddaa2/libraries/YarpPlugins/RaspiTwoPwmMotorController))
 
-1. Finally, remember to reboot for changes in `/etc/rc.local` to take effect.
+9. Finally, remember to reboot for changes in `/etc/rc.local` to take effect.
 
 ## Arduino-based robots
 Such is the case of [Laser Tower Of Death](https://github.com/asrob-uc3m/laser-tower-of-death). Relevant software:
