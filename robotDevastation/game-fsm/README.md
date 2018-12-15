@@ -1,6 +1,6 @@
 # Game FSM
 
-The Game FSM, implemented in [GameStateLib](http://asrob.uc3m.es/rddoc/group__GameStatesLib.html) using the [State Machine Library](state-machine-library.md), is the component in charge of controlling the game flow. Each state corresponds to a game state, and game conditions trigger the different transitions of the FSM.
+The Game FSM, implemented in [GameStateLib](http://wiki.asrob.uc3m.es/rddoc/group__GameStatesLib.html) using the [State Machine Library](state-machine-library.md), is the component in charge of controlling the game flow. Each state corresponds to a game state, and game conditions trigger the different transitions of the FSM.
 
 {% plantuml %}
 [*] --> InitState

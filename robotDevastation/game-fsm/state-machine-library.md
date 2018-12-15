@@ -2,27 +2,27 @@
 
 ## Main classes
 
-The `robotDevastation` FSM is implementend in [StateMachineLib](http://asrob.uc3m.es/rddoc/group__StateMachineLib.html) has three main classes: [State](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), [StateDirector](http://asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html), and [FiniteStateMachine](http://asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html).
+The `robotDevastation` FSM is implementend in [StateMachineLib](http://wiki.asrob.uc3m.es/rddoc/group__StateMachineLib.html) has three main classes: [State](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1State.html), [StateDirector](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html), and [FiniteStateMachine](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html).
 
 <img src="/assets/StateMachine.svg" title="Class diagram" alt="Class diagram" width="800" />
 
 ### State
 
-To create custom states, you mush inherit from the [State class](http://asrob.uc3m.es/rddoc/classrd_1_1State.html), and implement the corresponding members.
+To create custom states, you mush inherit from the [State class](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1State.html), and implement the corresponding members.
 
 You must also specify an ID in the `state_id` internal string variable.
 
 ### StateDirector
 
-Execution flow of the different states is controlled through a [StateDirector class](http://asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html) attached to a State. It is not necessary to implement a custom StateDirector for a custom State, as the StateDirector just provides a method to control how States are executed and how transitions are performed.
+Execution flow of the different states is controlled through a [StateDirector class](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1StateDirector.html) attached to a State. It is not necessary to implement a custom StateDirector for a custom State, as the StateDirector just provides a method to control how States are executed and how transitions are performed.
 
 When a StateDirector is started, it becomes the active StateDirector, and the associated State's setup() function is called. Then, it enters in the run loop, in which, periodically, the StateDirector executes the State's loop() method. After the loop() method is executed, the State's evaluateConditions() function is called, obtaining the id of the next state to be run. If the next state is not the current state, the current state is stopped and the next one is started.
 
 ### FiniteStateMachine
 
-The [FiniteStateMachine class](http://asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html) provides a nice interface to manipulate the StateMachine. States are added and configured and, then, the FiniteStateMachine is executed with the start() function. From that point, the FiniteStateMachine takes care of the execution flow and the deletion of the different states once the execution has finished.
+The [FiniteStateMachine class](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1FiniteStateMachine.html) provides a nice interface to manipulate the StateMachine. States are added and configured and, then, the FiniteStateMachine is executed with the start() function. From that point, the FiniteStateMachine takes care of the execution flow and the deletion of the different states once the execution has finished.
 
-To create a FiniteStateMachine, a [StateMachineBuilder class](http://asrob.uc3m.es/rddoc/classrd_1_1StateMachineBuilder.html) is typically used. More info about StateMachineBuilder in the examples section.
+To create a FiniteStateMachine, a [StateMachineBuilder class](http://wiki.asrob.uc3m.es/rddoc/classrd_1_1StateMachineBuilder.html) is typically used. More info about StateMachineBuilder in the examples section.
 
 ## Execution flow of the FiniteStateMachine
 
