@@ -1,5 +1,8 @@
 {
-    "plugins": [
-        "puml"
-    ]
+  "structure": {
+    "readme": "README-gitbook.md"
+  },
+  "plugins": [
+    "puml"
+  ]
 }

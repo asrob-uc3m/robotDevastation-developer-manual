@@ -1,6 +1,6 @@
 # Summary
 
-* [Introduction](README.md)
+* [Introduction](README-gitbook.md)
 * [Overview](overview.md)
 * [The Game \(robotDevastation\)](robotDevastation/README.md)
   * [Game FSM](robotDevastation/game-fsm/README.md)
