@@ -2,4 +2,6 @@
 
 # Robot Devastation Developer Manual
 
+[Robot Devastation](http://asrob-uc3m.github.io/workgroups/2017-05-28-robot-devastation.html) Developer Manual
+
 Currently hosted at https://asrob-uc3m.gitbooks.io/robotDevastation-developer-manual/content
