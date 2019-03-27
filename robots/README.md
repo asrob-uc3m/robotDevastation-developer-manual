@@ -24,6 +24,10 @@ sudo apt install console-data
 sudo loadkeys --verbose es
 ```
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
+- You can temporarily connect to a wireless network via (append password on command as required):
+```bash
+sudo iwconfig wlan0 essid ASROB
+```
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
 ```bash
