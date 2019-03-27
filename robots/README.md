@@ -65,7 +65,7 @@ sudo mkdir -p /etc/service
 git clone https://github.com/asrob-uc3m/robotDevastation-robots
 mkdir robotDevastation-robots/build  && cd robotDevastation-robots/build
 cmake ..
-make -j4
+make -j$(nproc) # Compile
 sudo make install
 ```
 
