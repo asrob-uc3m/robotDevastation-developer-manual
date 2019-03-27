@@ -13,7 +13,7 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 - Boot Raspi from SD card
 - For keyboard layout:
 ```bash
-apt install console-data
+sudo apt install console-data
 loadkeys --verbose es
 ```
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
