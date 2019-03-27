@@ -7,6 +7,13 @@ Our current trend is to promote one repository per robot design. This enables ro
 ## Raspi-based robots
 Many of our robots are based on Raspi, essentially because we need to move camera and motors via IP. In general, we use: OS (Raspbian Stretch Lite), camera via YARP `opencv_grabber` device to publish images via MJPEG protocol (or default YARP protocol as a fallback), and motors via our custom YARP devices at [yarp-devices](https://github.com/asrob-uc3m/yarp-devices).
 
+### Prepare Raspi Peripherals
+- Screen (HDMI)
+- Keyboard (USB type A)
+- Mouse (USB type A)
+- Power supply (USB type micro-B)
+- Network (ethernet or wifi)
+
 ### Install Raspbian Stretch Lite on Raspi
 - Download Raspbian Stretch Lite image from https://www.raspberrypi.org/downloads/raspbian/
 - Unzip and use plain `dd` as a copying mechanism to SD card
