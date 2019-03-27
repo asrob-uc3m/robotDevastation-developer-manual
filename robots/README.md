@@ -28,7 +28,9 @@ sudo loadkeys --verbose es
 ```bash
 sudo iwconfig wlan0 essid ASROB
 ```
-- We usually configure permanent connections via `/etc/network/interfaces` as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes).
+- For permanent network configurations, this can be done via different options:
+    - On the Raspi: `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes)
+    - On the router side: assignment of IP based on MAC address
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
 ```bash
