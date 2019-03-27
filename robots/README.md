@@ -11,7 +11,11 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 - Download Raspbian Stretch Lite image from https://www.raspberrypi.org/downloads/raspbian/
 - Unzip and use plain `dd` as a copying mechanism to SD card
 - Boot Raspi from SD card
-- For keyboard layout, `apt install console-data` for `loadkeys --verbose es` (thanks https://superuser.com/questions/659247/installing-different-keyboard-layout-on-live-debian-image )
+- For keyboard layout:
+```bash
+apt install console-data
+loadkeys --verbose es
+```
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
