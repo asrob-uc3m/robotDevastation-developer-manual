@@ -21,7 +21,7 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 - For keyboard layout:
 ```bash
 sudo apt install console-data
-loadkeys --verbose es
+sudo loadkeys --verbose es
 ```
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
 
