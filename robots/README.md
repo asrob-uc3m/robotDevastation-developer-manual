@@ -60,7 +60,7 @@ apt-get install daemontools daemontools-run csh
 sudo mkdir -p /etc/service
 ```
 
-4. Install the required daemontool services and `.ini` files used by them:
+4. Install the required `daemontools` services and `.ini` files used by them:
 ```bash
 git clone https://github.com/asrob-uc3m/robotDevastation-robots
 mkdir robotDevastation-robots/build  && cd robotDevastation-robots/build
