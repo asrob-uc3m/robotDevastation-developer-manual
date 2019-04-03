@@ -19,11 +19,7 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 - Unzip and use plain `dd` as a copying mechanism to SD card
 - Boot Raspi from SD card
 - Specific for Raspi 3 Plus: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
-- For keyboard layout:
-```bash
-sudo apt install console-data
-sudo loadkeys --verbose es
-```
+- For keyboard layout also use `sudo raspi-config` [1](https://raspberryparatorpes.net/empezando/raspi-config-configuracion-inicial-de-raspbian/) (you do not need `sudo apt install console-data; sudo loadkeys --verbose es`
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
 - You can temporarily connect to a wireless network via (append `key password` to command if required):
 ```bash
