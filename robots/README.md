@@ -42,6 +42,7 @@ git clone https://github.com/robotology/yarp
 mkdir yarp/build && cd yarp/build
 cmake .. -DSKIP_ACE=ON
 cmake .. -DENABLE_yarpcar_mjpeg=ON
+cmake .. -DENABLE_yarpmod_opencv_grabber=ON
 make -j$(nproc) # Compile
 sudo make install
 ```
