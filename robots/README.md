@@ -20,14 +20,11 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 - Boot Raspi from SD card
 - Specific for Raspi 3 Plus: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
 - For keyboard layout also use `sudo raspi-config` [1](https://raspberryparatorpes.net/empezando/raspi-config-configuracion-inicial-de-raspbian/) (you do not need `sudo apt install console-data; sudo loadkeys --verbose es`
+- To connect to a wireless network, some alternatives:
+    1. Via `sudo raspi-config` (you do not need `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes))
+    2. On the router side: assignment of IP based on MAC address
+    3. Temporal via `sudo iwconfig wlan0 essid ASROB`, append `key password` to command if required
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
-- You can temporarily connect to a wireless network via (append `key password` to command if required):
-```bash
-sudo iwconfig wlan0 essid ASROB
-```
-- For permanent network configurations, this can be done via different options:
-    - On the Raspi: `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes)
-    - On the router side: assignment of IP based on MAC address
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
 ```bash
