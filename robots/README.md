@@ -33,6 +33,7 @@ cat /etc/os-release
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
 ```bash
+sudo apt update
 sudo apt install git cmake
 sudo apt install libjpeg8-dev  # Only required for mjpeg that should improve video comms
 # opencv in fact replaces by libjpeg62-dev
