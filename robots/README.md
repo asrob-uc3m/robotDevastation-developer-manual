@@ -18,6 +18,7 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 - Download Raspbian Stretch Lite image from https://www.raspberrypi.org/downloads/raspbian/
 - Unzip and use plain `dd` as a copying mechanism to SD card
 - Boot Raspi from SD card
+- Specific for Raspi 3 Plus: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
 - For keyboard layout:
 ```bash
 sudo apt install console-data
