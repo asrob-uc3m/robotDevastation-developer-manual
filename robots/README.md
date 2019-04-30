@@ -16,7 +16,10 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 
 ### Install Raspbian Stretch Lite on Raspi
 - Download Raspbian Stretch Lite image from https://www.raspberrypi.org/downloads/raspbian/
-- Unzip and use plain `dd` as a copying mechanism to SD card
+- Unzip and use plain `dd` as a copying mechanism to SD card as explained [here](https://www.raspberrypi.org/documentation/installation/installing-images/linux.md):
+```bash
+dd bs=4M if=2019-04-08-raspbian-stretch-lite.img of=/dev/sdX # rename as required, e.g. /dev/mmcblk0
+```
 - Boot Raspi from SD card
 - See your OS version via:
 ```bash
