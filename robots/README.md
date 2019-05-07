@@ -32,6 +32,7 @@ cat /etc/os-release
     1. Via `sudo raspi-config` (you do not need `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes))
     2. On the router side: assignment of IP based on MAC address
     3. Temporal via `sudo iwconfig wlan0 essid ASROB`, append `key password` to command if required
+- To see pinout you can `sudo apt install python3-gpiozero` and then use `pinout` as explained [here](https://www.raspberrypi.org/documentation/usage/gpio/README.md)
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
