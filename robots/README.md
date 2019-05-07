@@ -26,8 +26,8 @@ dd bs=4M if=2019-04-08-raspbian-stretch-lite.img of=/dev/sdX # rename as require
 cat /etc/debian_version
 cat /etc/os-release
 ```
-- Specific for Raspi 3 Plus: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
-- For keyboard layout also use `sudo raspi-config` [1](https://raspberryparatorpes.net/empezando/raspi-config-configuracion-inicial-de-raspbian/) (you do not need `sudo apt install console-data; sudo loadkeys --verbose es`
+- Mandatory on Raspi 3B+: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
+- For keyboard layout, use `sudo raspi-config` [1](https://raspberryparatorpes.net/empezando/raspi-config-configuracion-inicial-de-raspbian/) (you do not need `sudo apt install console-data; sudo loadkeys --verbose es`
 - To connect to a wireless network, some alternatives:
     1. Via `sudo raspi-config` (you do not need `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes))
     2. On the router side: assignment of IP based on MAC address
