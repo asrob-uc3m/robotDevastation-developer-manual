@@ -21,17 +21,22 @@ Many of our robots are based on Raspi, essentially because we need to move camer
 dd bs=4M if=2019-04-08-raspbian-stretch-lite.img of=/dev/sdX # rename as required, e.g. /dev/mmcblk0
 ```
 - Boot Raspi from SD card
-- See your OS version via:
-```bash
-cat /etc/debian_version
-cat /etc/os-release
-```
+- For keyboard layout, some alternatives:
+    1. `sudo raspi-config` ([ref](https://raspberryparatorpes.net/empezando/raspi-config-configuracion-inicial-de-raspbian/)) > `4 Localisation Options` > `I3 Change Keyboard Layout`
+    1. `sudo apt install console-data` and then `sudo loadkeys --verbose es`
+- There are several methods to see your OS/distribution version ([ref](https://linuxize.com/post/how-to-check-your-ubuntu-version/)). Not all the files mentioned here may exist on a specific distribution, so `cat` may fail sometimes:
+    1. `lsb_release -a`
+    1. `lsb_release -d`
+    1. `cat /etc/issue`
+    1. `cat /etc/os-release`
+    1. `cat /etc/debian_version`
+    1. `cat /etc/lsb-release`
+    1. `hostnamectl`
 - Mandatory on Raspi 3B+: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
-- For keyboard layout, use `sudo raspi-config` [1](https://raspberryparatorpes.net/empezando/raspi-config-configuracion-inicial-de-raspbian/) (you do not need `sudo apt install console-data; sudo loadkeys --verbose es`
 - To connect to a wireless network, some alternatives:
     1. Via `sudo raspi-config` (you do not need `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes))
-    2. On the router side: assignment of IP based on MAC address
-    3. Temporal via `sudo iwconfig wlan0 essid ASROB`, append `key password` to command if required
+    1. On the router side: assignment of IP based on MAC address
+    1. Temporal via `sudo iwconfig wlan0 essid ASROB`, append `key password` to command if required
 - To see pinout you can `sudo apt install python3-gpiozero` and then use `pinout` as explained [here](https://www.raspberrypi.org/documentation/usage/gpio/README.md)
 - Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
 
