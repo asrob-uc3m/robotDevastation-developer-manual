@@ -38,7 +38,7 @@ dd bs=4M if=2019-04-08-raspbian-stretch-lite.img of=/dev/sdX # rename as require
     1. On the router side: assignment of IP based on MAC address
     1. Temporal via `sudo iwconfig wlan0 essid ASROB`, append `key password` to command if required
 - To see pinout you can `sudo apt install python3-gpiozero` and then use `pinout` as explained [here](https://www.raspberrypi.org/documentation/usage/gpio/README.md)
-- Activate `ssh` as indicated in https://www.raspberrypi.org/documentation/remote-access/ssh/
+- Enable `ssh` ([https://www.raspberrypi.org/documentation/remote-access/ssh/](https://www.raspberrypi.org/documentation/remote-access/ssh/)): `sudo raspi-config` > `5 Interfacing Options` > `P2 SSH` > `Yes`
 
 ### Install YARP on Raspbian Stretch Lite on Raspi
 ```bash
