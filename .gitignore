@@ -5,3 +5,10 @@
 ## because asrob-uc3m repos is currently hosted and generated at gitbook.com legacy site: https://asrob-uc3m.gitbooks.io
 /_book/
 /node_modules/
+
+# Swap
+[._]*.s[a-v][a-z]
+[._]*.sw[a-p]
+[._]s[a-rt-v][a-z]
+[._]ss[a-gi-z]
+[._]sw[a-p]
