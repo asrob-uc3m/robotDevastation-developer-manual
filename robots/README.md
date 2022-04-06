@@ -34,7 +34,7 @@ dd bs=4M if=2019-04-08-raspbian-stretch-lite.img of=/dev/sdX # rename as require
     1. `hostnamectl`
 - Mandatory on Raspi 3B+: `sudo raspi-config` > `4 Localisation Options` > `I4 Change Wi-fi Country` > Set and accept rebooting
 - To connect to a wireless network, some alternatives:
-    1. Via `sudo raspi-config` (you do not need `/etc/network/interfaces`, as explained [here](http://wiki.asrob.uc3m.es/index.php/Tutorial_de_Redes))
+    1. Via `sudo raspi-config` (you do not need `/etc/network/interfaces`, as explained [here](https://apps-robots.uc3m.es/asrob/wiki/Tutorial_de_Redes))
     1. On the router side: assignment of IP based on MAC address
     1. Temporal via `sudo iwconfig wlan0 essid ASROB`, append `key password` to command if required
 - To see pinout you can `sudo apt install python3-gpiozero` and then use `pinout` as explained [here](https://www.raspberrypi.org/documentation/usage/gpio/README.md)
