@@ -62,7 +62,7 @@ Documentation [here](https://github.com/asrob-uc3m/yarp-devices/blob/develop/doc
 ### Configure YARP devices as services on Raspi
 Both camera and motors are set as `services` via `daemontools`.
 
-1. Install `daemontools` ([more here](https://github.com/roboticslab-uc3m/installation-guides/blob/master/install-daemontools.md)):
+1. Install `daemontools` ([more here](https://github.com/roboticslab-uc3m/installation-guides/blob/master/docs/install-daemontools.md)):
 ```bash
 apt-get install daemontools daemontools-run csh
 ```
